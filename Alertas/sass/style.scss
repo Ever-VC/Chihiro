@@ -1,0 +1,126 @@
+$coloresprueba:
+(
+    #c76862,
+    #87bba2,
+    #9d0129,
+    #b54d68,
+    #3c2f29,
+    #437155,
+    #8d83c3,
+    #dc8eb5
+);
+
+$chihiro : #c76862;
+$haku : #87bba2;
+$zeniba :#9d0129;
+$lin : #b54d68;
+$yubaba : #3c2f29;
+$akio : #437155;
+$noface : #8d83c3;
+$blanco: #fff;
+$negro: #000;
+
+
+.cuadros
+{
+    width: 100px;
+    height: 100px;
+    color:$blanco;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    border-radius: 10px;
+
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+
+.paleta
+{
+    padding: 5px;
+    margin: 40px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+@for $iterador from 1 through 8
+{
+    .cuadros-#{$iterador}
+    {
+        background-color: nth($coloresprueba, $iterador);
+        animation-name: animacion#{$iterador};
+        $var: 5% * $iterador;
+
+        @keyframes animacion#{$iterador}
+        {
+            100%{
+                transform: translate($var)
+            }
+            
+        }
+
+        @if $iterador == 5 or $iterador == 6 or $iterador == 7 or $iterador == 8
+        {
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+    }
+}
+
+
+@mixin alertas($color, $colortexto)
+{
+    @media screen and (max-width: 480px){
+        @content;
+    }
+    border: $color outset;
+    color:$colortexto;
+    padding:8px 8px 8px 20px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: $color;
+
+}
+
+.alert-chihiro
+{
+    @include alertas($chihiro, $blanco)
+}
+
+.alert-haku
+{
+    @include alertas($haku, $blanco)
+}
+
+.alert-zeniba
+{
+    @include alertas($zeniba, $blanco)
+}
+
+.alert-lin
+{
+    @include alertas($lin, $blanco)
+}
+
+.alert-yubaba
+{
+    @include alertas($yubaba, $blanco)
+}
+
+.alert-akio
+{
+    @include alertas($akio, $blanco)
+}
+
+.alert-noface
+{
+    @include alertas($noface, $blanco)
+}

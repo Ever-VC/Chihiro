@@ -1,0 +1,175 @@
+.cuadros {
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  border-radius: 10px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.paleta {
+  padding: 5px;
+  margin: 40px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+}
+
+.cuadros-1 {
+  background-color: #c76862;
+  animation-name: animacion1;
+}
+@keyframes animacion1 {
+  100% {
+    transform: translate(5%);
+  }
+}
+
+.cuadros-2 {
+  background-color: #87bba2;
+  animation-name: animacion2;
+}
+@keyframes animacion2 {
+  100% {
+    transform: translate(10%);
+  }
+}
+
+.cuadros-3 {
+  background-color: #9d0129;
+  animation-name: animacion3;
+}
+@keyframes animacion3 {
+  100% {
+    transform: translate(15%);
+  }
+}
+
+.cuadros-4 {
+  background-color: #b54d68;
+  animation-name: animacion4;
+}
+@keyframes animacion4 {
+  100% {
+    transform: translate(20%);
+  }
+}
+
+.cuadros-5 {
+  background-color: #3c2f29;
+  animation-name: animacion5;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes animacion5 {
+  100% {
+    transform: translate(25%);
+  }
+}
+
+.cuadros-6 {
+  background-color: #437155;
+  animation-name: animacion6;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes animacion6 {
+  100% {
+    transform: translate(30%);
+  }
+}
+
+.cuadros-7 {
+  background-color: #8d83c3;
+  animation-name: animacion7;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes animacion7 {
+  100% {
+    transform: translate(35%);
+  }
+}
+
+.cuadros-8 {
+  background-color: #dc8eb5;
+  animation-name: animacion8;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes animacion8 {
+  100% {
+    transform: translate(40%);
+  }
+}
+
+.alert-chihiro {
+  border: #c76862 outset;
+  color: #fff;
+  padding: 8px 8px 8px 20px;
+  margin: 2px;
+  border-radius: 10px;
+  background-color: #c76862;
+}
+.alert-haku {
+  border: #87bba2 outset;
+  color: #fff;
+  padding: 8px 8px 8px 20px;
+  margin: 2px;
+  border-radius: 10px;
+  background-color: #87bba2;
+}
+.alert-zeniba {
+  border: #9d0129 outset;
+  color: #fff;
+  padding: 8px 8px 8px 20px;
+  margin: 2px;
+  border-radius: 10px;
+  background-color: #9d0129;
+}
+.alert-lin {
+  border: #b54d68 outset;
+  color: #fff;
+  padding: 8px 8px 8px 20px;
+  margin: 2px;
+  border-radius: 10px;
+  background-color: #b54d68;
+}
+.alert-yubaba {
+  border: #3c2f29 outset;
+  color: #fff;
+  padding: 8px 8px 8px 20px;
+  margin: 2px;
+  border-radius: 10px;
+  background-color: #3c2f29;
+}
+.alert-akio {
+  border: #437155 outset;
+  color: #fff;
+  padding: 8px 8px 8px 20px;
+  margin: 2px;
+  border-radius: 10px;
+  background-color: #437155;
+}
+.alert-noface {
+  border: #8d83c3 outset;
+  color: #fff;
+  padding: 8px 8px 8px 20px;
+  margin: 2px;
+  border-radius: 10px;
+  background-color: #8d83c3;
+}
+
+/*# sourceMappingURL=style.css.map */
