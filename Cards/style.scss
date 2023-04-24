@@ -1,0 +1,171 @@
+$card-s-height: 400px;
+$card-s-width: 25%;
+$card-border-radius: 20px 20px 0px 0px;
+$card-border-radius-c: 20px;
+$card-s-margin: 0 auto;
+$card-center-flex: flex;
+$card-s-img-width: 100%; 
+$card-s-img-height: 50%; 
+$card-s-img-bgc:#c76862;
+$card-m-img-bgc:#87bba2;
+$haku : #87bba2;
+$zeniba :#9d0129;
+
+//m-card
+@mixin medidasCardM{
+    height: 400px;
+    width: 50%;
+    padding: 5px;
+    margin: 40px;
+}
+
+@mixin btn-M{
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.3em;
+
+ 
+}
+
+@mixin centrarFlex {   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+@mixin circleDiv{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+
+body{
+    background-color: #663399;
+}
+.card-s{
+    width: $card-s-width;
+    height: $card-s-height;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: $card-border-radius;
+    margin: $card-s-margin;
+  
+}
+.text-s{
+    width: 30%;
+    height: 30%;
+    margin: $card-s-margin;
+    @include centrarFlex;
+}
+.image-s{
+    width: $card-s-img-width;
+    height: $card-s-img-height;
+    background-color: $card-s-img-bgc;
+    border-radius: $card-border-radius;
+    @include centrarFlex;
+      
+}
+.image-m{
+    @include circleDiv;
+    @include centrarFlex;
+    margin: $card-s-margin;
+
+      
+}
+.title{
+   
+    text-align: center;
+}
+
+.link-s{
+   color: rgb(59, 227, 227);
+   @include centrarFlex;
+}
+
+//card 2 tamaño m
+.card-m{
+  @include medidasCardM;
+  justify-content: center;
+  align-items: center;
+  background-color: $haku;
+ // border-radius: $card-border-radius;
+  margin: $card-s-margin;
+  border-radius: $card-border-radius-c;
+ // display: $card-center-flex;
+ 
+}
+.card-m-footer{
+  /*  @include centrarFlex;
+    margin: $card-s-margin; */
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-a{
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+  background-color: #16161d;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.list-m{
+    
+    list-style-type: none;
+    @include centrarFlex;
+   border-bottom: 1px solid black;
+
+}
+//card R
+
+.card-r{
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 42% 42% 15%;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: $haku;
+    
+}
+.cardR-header{
+        background-color: #fff;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+}
+.cardR-content{
+    background-color: $haku;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+.cardR-icon{
+    background-color: $haku;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+i{
+    padding: 10px;
+    margin: 10px;
+    width: 40px;
+    height: 20px;
+}
