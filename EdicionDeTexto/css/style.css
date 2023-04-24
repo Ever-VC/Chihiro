@@ -1,0 +1,226 @@
+.text {
+  font-family: "Bebas Neue", cursive;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+@media screen and (max-width: 380px) {
+  .text {
+    font-size: 9px;
+  }
+}
+
+.title {
+  font-family: jumble, sans-serif;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.msg {
+  font-family: "Bebas Neue", cursive;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.text-wrap {
+  word-wrap: break-word;
+}
+
+.text-start {
+  text-align: start;
+  align-items: start;
+}
+
+.text-center {
+  text-align: center;
+  align-items: center;
+}
+
+.text-end {
+  text-align: end;
+  align-items: end;
+}
+
+.fweight-bold {
+  font-weight: 700;
+}
+
+.fweight-bolder {
+  font-weight: 1000;
+}
+
+.fweight-italic {
+  font-style: italic;
+}
+
+.fweight-normal {
+  font-weight: 500;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-deco-none {
+  text-decoration: none;
+}
+
+.text-deco-line-through {
+  text-decoration: line-through;
+}
+
+.text-deco-overline {
+  text-decoration: overline;
+}
+
+.text-deco-underline {
+  text-decoration: underline;
+}
+
+.text-deco-overline-dotted {
+  text-decoration: overline dotted;
+}
+
+.text-deco-underline-dotted {
+  text-decoration: underline dotted;
+}
+
+.text-deco-overline-dashed {
+  text-decoration: overline dashed;
+}
+
+.text-deco-underline-dashed {
+  text-decoration: underline dashed;
+}
+
+.text-deco-overline-wavy {
+  text-decoration: overline wavy;
+}
+
+.text-deco-underline-wavy {
+  text-decoration: underline wavy;
+}
+
+.text-deco-overline-double {
+  text-decoration: overline double;
+}
+
+.text-deco-underline-double {
+  text-decoration: underline double;
+}
+
+.text-deco-overline-line-through {
+  text-decoration: overline line-through;
+}
+
+.text-deco-underline-line-through {
+  text-decoration: underline line-through;
+}
+
+.text-size-h1 {
+  font-size: 2rem;
+}
+
+.text-size-h2 {
+  font-size: 1.6rem;
+}
+
+.text-size-h3 {
+  font-size: 1.4rem;
+}
+
+.text-size-h4 {
+  font-size: 1.2rem;
+}
+
+.text-size-h5 {
+  font-size: 1rem;
+}
+
+.text-size-h6 {
+  font-size: 0.8rem;
+}
+
+.font-hover-chihiro:hover {
+  color: #c76862;
+  cursor: pointer;
+}
+.font-hover-haku:hover {
+  color: #87bba2;
+  cursor: pointer;
+}
+.font-hover-zeniba:hover {
+  color: #9d0129;
+  cursor: pointer;
+}
+.font-hover-lin:hover {
+  color: #dc8eb5;
+  cursor: pointer;
+}
+.font-hover-yubaba:hover {
+  color: #271e17;
+  cursor: pointer;
+}
+.font-hover-akio:hover {
+  color: #437155;
+  cursor: pointer;
+}
+.font-hover-noface:hover {
+  color: #8d83c3;
+  cursor: pointer;
+}
+.font-hover-susuwatari:hover {
+  color: #b54d68;
+  cursor: pointer;
+}
+
+.font-color-chihiro {
+  color: #c76862;
+}
+.font-color-haku {
+  color: #87bba2;
+}
+.font-color-zeniba {
+  color: #9d0129;
+}
+.font-color-lin {
+  color: #dc8eb5;
+}
+.font-color-yubaba {
+  color: #271e17;
+}
+.font-color-akio {
+  color: #437155;
+}
+.font-color-noface {
+  color: #8d83c3;
+}
+.font-color-susuwatari {
+  color: #b54d68;
+}
+
+.font-color-blanco {
+  color: #fafaf8;
+}
+
+.font-color-negro {
+  color: #000;
+}
+
+.font-spacing {
+  letter-spacing: 0.06em;
+}
+
+/*# sourceMappingURL=style.css.map */

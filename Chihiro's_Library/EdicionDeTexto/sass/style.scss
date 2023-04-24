@@ -1,0 +1,212 @@
+@use '../../variables.scss';
+
+.text
+{
+    font-family: variables.$font1;
+    font-size: variables.$base;
+    font-weight: 400;
+    @media screen and (max-width:380px){
+        font-size: 9px;
+    }
+}
+
+
+.title
+{
+    font-family: variables.$font2;
+    font-weight: variables.$bold;
+}
+
+.subtitle
+{
+    font-family: variables.$font1;
+    font-size: variables.$txt-lg;
+    font-weight: variables.$normal;
+}
+
+.msg
+{
+    font-family: variables.$font1;
+    font-size: variables.$txt-sm;
+    font-weight: variables.$normal;
+}
+
+.text-wrap
+{
+    word-wrap: break-word;
+}
+
+.text-start
+{
+    text-align: start;
+    align-items: start;
+}
+
+.text-center
+{
+    text-align: center;
+    align-items: center;
+}
+
+.text-end
+{
+    text-align: end;
+    align-items: end;
+}
+
+.fweight-bold
+{
+    font-weight: variables.$bold;
+}
+
+.fweight-bolder
+{
+    font-weight: variables.$bolder;
+}
+
+.fweight-italic
+{
+    font-style: italic;
+}
+
+.fweight-normal
+{
+    font-weight: variables.$normal;
+}
+
+.text-lowercase
+{
+    text-transform: lowercase;
+}
+
+.text-uppercase
+{
+    text-transform: uppercase;
+}
+
+.text-capitalize
+{
+    text-transform: capitalize;
+}
+
+.text-deco-none
+{
+    text-decoration: none;
+}
+
+
+@mixin overlineDecoration($decorado)
+{
+    text-decoration:overline $decorado;
+}
+
+@mixin overline
+{
+    text-decoration:overline;
+}
+
+@mixin underline
+{
+    text-decoration: underline;
+}
+
+@mixin underlineDecoration($decorado)
+{
+    text-decoration: underline $decorado;
+}
+
+@mixin tachar
+{
+    text-decoration: line-through;
+}
+
+
+.text-deco-line-through
+{
+    @include tachar;
+}
+
+.text-deco-overline
+{
+   @include overline;
+}
+
+
+.text-deco-underline
+{
+   @include underline();
+}
+
+@for $iterador from 1 through 5
+{
+    $var: nth(variables.$TiposDecoracion, $iterador);
+    .text-deco-overline-#{$var}
+    {
+       @include overlineDecoration(#{$var});
+    }
+
+    .text-deco-underline-#{$var}
+    {
+       @include underlineDecoration(#{$var});
+    }
+
+  
+}
+
+@for $iterador from 1 through 6
+{
+    $var: $iterador;
+    .text-size-h#{$var}
+    {
+       font-size: map-get(variables.$mapaSizes, $var);
+    }
+}
+
+
+@mixin text-color($name, $color)
+{
+  &-#{$name}
+  {
+    color: $color;
+  }
+}
+
+@mixin font-hover($name, $color)
+{
+  &-#{$name}:hover
+  {
+    color: $color;
+    cursor: pointer;
+  }
+}
+
+.font-hover
+{
+    @each $name, $color in variables.$ColorsFondo
+    {
+        @include font-hover($name, $color);
+    }
+}
+
+.font-color
+{
+    @each $name, $color in variables.$ColorsFondo
+    {
+        @include text-color($name, $color);
+    }
+}
+
+.font-color-blanco
+{
+    color: variables.$blanco;
+}
+
+.font-color-negro
+{
+    color: variables.$negro;
+}
+
+.font-spacing 
+{
+    letter-spacing: 0.06em;
+}

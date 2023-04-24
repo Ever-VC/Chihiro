@@ -1,0 +1,106 @@
+ @use '../../variables.scss';
+
+
+ .card-element
+  {
+    --img-scale: 1.001;
+  position: relative;
+  border-radius: 16px;
+  background: variables.$blanco;
+  transform-origin: center;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+.card-element h2 {
+  margin: 0 0 18px 0;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.9rem;
+  letter-spacing: 0.06em;
+}
+
+.card-body 
+{
+  padding: 24px 24px 0 24px;
+}
+
+.card-body p
+{
+  padding: 0 0 10px 0;
+}
+
+
+.card-element img {
+  width: auto;
+  max-width: 100%;
+  transform-origin: center;
+  transform: scale(var(--img-scale));
+  transition: transform 0.4s ease-in-out;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.cards-container {
+  display: grid;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+@media screen and (max-width: 960px)
+ {
+   .card-element {
+    container: card/inline-size;
+  }
+  .card-body p {
+    display: none;
+  }
+  .card-wrapper img
+  {
+    height: 100%;
+  }
+  .card-element h2 {
+    font-size: 1.2rem;
+    letter-spacing: 0.06em;
+  }
+}
+
+  @container card (min-width: 380px) 
+  {
+  .card-wrapper {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 16px;
+  }
+  .card-body {
+    padding-left: 0;
+  }
+  .card-wrapper img
+  {
+    width: 150px;
+    height: 1fr;
+  }
+  .card-element h2 
+  {
+    font-size: 1.2rem;
+    letter-spacing: 0.06em;
+  }
+}
+
+
+.card-title i:hover
+{
+  transform: scale(1.25) rotate(100deg); 
+  
+}
+.card-element:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}

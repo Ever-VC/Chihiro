@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chihiro's Library • Edicion de Texto</title>
+    <link rel="stylesheet" href="../reset.css">
+    <!-- Iconos Virtuales -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"/>
+    <!-- Icon-->
+    <link rel="icon" href="img/kuro02.svg">
+    <!-- Librerias -->
+    <link rel="stylesheet" href="../Alertas/css/style.css">
+    <link rel="stylesheet" href="../badges/css/badges.css">
+    <link rel="stylesheet" href="../hide-elements/css/hide.css">
+    <link rel="stylesheet" href="../margin-padding-border/css/margin-padding-border.css">
+    <link rel="stylesheet" href="../move-elements/css/position.css">
+    <link rel="stylesheet" href="../Botones/css/style.css">
+    <link rel="stylesheet" href="../EdicionDeTexto/css/style.css">
+    <link rel="stylesheet" href="../RedondearElementos/css/style.css">
+    <link rel="stylesheet" href="../Contenedores/css/contenedores.css">
+    <link rel="stylesheet" href="../ColoresDeFondo/css/style.css">
+    <link rel="stylesheet" href="../BarraDeNavegacion/css/style.css">
+    <link rel="stylesheet" href="../Tarjetas/css/style.css">
+    <link rel="stylesheet" href="../shadow/css/shadow.css">
+    <link rel="stylesheet" href="../Formularios/css/style.css">
+    <!-- CSS SITIO WEB -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <!-- Barra de navegacion -->
+    <div class="bg-color-transparente">
+        <nav class="navbar">
+            <div onclick="location.href='./documentacion.html'" class="navbar_logo title font-color-yubaba"><img src="../img/kuro02.svg" alt="" height="75px" width="80px">Chihiro</div>
+            <div class="navbar_bars" ><i class="fas fa-bars"></i></div>
+            <ul class="navbar_menu">
+              <button class="btn-colored-chihiro text-size-h hov" onclick="location.href='./index.html'">Inicio</button>
+              <li><a href="https://github.com/EverVC/Chihiro.git"><div class="btn btn-icon-chihiro"><i class="fab fa-github fa-3x"></i></div></a></li>
+              <li><a href=""><div class="btn btn-icon-chihiro"><i class="fas fa-user-circle fa-3x"></i></div></a></li>
+              <li><a href="https://www.netflix.com/sv-en/title/60023642"><div class="btn btn-icon-chihiro"><i class="fas fa-compact-disc fa-3x"></i></div></a></li>
+          </ul>
+        </nav>
+    </div>
+
+    <!-- CONTENIDO GRID -->
+    <div class="m grid"> 
+
+        <!-- Columna 1 -->
+        <div class="grid-nav font-color-yubaba">
+            <p class="m"><span class="text-size-h4 hov m fweight-bolder ">CONTENIDO:</span></p><br>
+            <p onclick="location.href='./botones.html'"><span class="font-hover-chihiro hov m">Botones</span></p><br>
+            <p onclick="location.href='./formularios.html'"><span class="font-hover-chihiro hov m">Formularios</span></p><br>
+            <p onclick="location.href='./tarjetas.html'"><span class="font-hover-chihiro hov m">Tarjetas</span></p><br>
+            <p onclick="location.href='./alertas.html'"><span class="font-hover-chihiro hov m">Alertas</span></p><br>
+            <p onclick="location.href='./navbar.html'"><span class="font-hover-chihiro hov m">Barras de navegación</span></p><br>
+            <p onclick="location.href='./badges.html'"><span class="font-hover-chihiro hov m">Badges</span></p><br>
+            <p onclick="location.href='./contenedores.html'"><span class="font-hover-chihiro hov m">Contenedores</span></p><br>
+            <p onclick="location.href='./edicionTexto.html'"><span class="font-hover-chihiro hov m">Tamaño, grosor, color y tipo de letra</span></p><br>
+            <p onclick="location.href='./sombras.html'"><span class="font-hover-chihiro hov m">Sombras</span></p><br>
+            <p onclick="location.href='./margen_padding_borde.html'"><span class="font-hover-chihiro hov m">Márgenes, paddings y bordes</span></p><br>
+            <p onclick="location.href='./mover_elementos.html'"><span class="font-hover-chihiro hov m">Mover elementos</span></p><br>
+            <p onclick="location.href='./redondear.html'"><span class="font-hover-chihiro hov m">Redondear elementos</span></p><br>
+            <p onclick="location.href='./ocultar_elementos.html'"><span class="font-hover-chihiro hov m">Ocultar elementos</span></p><br>
+            <p onclick="location.href='./coloresFondo.html'" class="m-bottom"><span class="font-hover-chihiro hov m">Color de fondo</span></p>
+        </div>
+
+        <!-- Columna 2 -->
+        <div class="grid-content font-color-yubaba">
+            <h1 class="title h1-doc text-uppercase text-center font-color-chihiro">Edicion de Texto</h1><br>
+            <div class="m-left-2 text-size-h4 font-spacing">
+            <h1 id="Tamaño" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Tamaño:</h1>
+            <hr class="font-color-chihiro">
+                <p class="m-top ">
+                    Cambia rápidamente el font-size del texto. El tamaño de estas utilidades coincide con los elementos de encabezado de HTML, por lo que a medida que aumenta el número, su tamaño disminuye.
+                  <br><br> 
+                   Las utilidades de tamaño de texto se cambian con <span class="font-color-susuwatari fweight-bold">text-size</span> especificando el tamaño del texto, a continuacion te mostramos los diferentes tamaños: 
+                   <br><br>
+                </p>
+<pre class="prettyprint subtitle">
+
+    &lt;div class="text-size-h1"&gt;Soy un texto h1&lt;/div&gt;
+    &lt;div class="text-size-h2"&gt;Soy un texto h2&lt;/div&gt;
+    &lt;div class="text-size-h3"&gt;Soy un texto h3&lt;/div&gt;
+    &lt;div class="text-size-h4"&gt;Soy un texto h4&lt;/div&gt;
+    &lt;div class="text-size-h5"&gt;Soy un texto h5&lt;/div&gt;
+    &lt;div class="text-size-h6"&gt;Soy un texto h6&lt;/div&gt; 
+    <br>
+</pre>
+<h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_YELLOW_V3.svg" alt="" height="20px" width="30px">Resultado: </h1>
+                <div class="text-center">
+                    <p class="text-size-h1">Soy un texto h1</p>
+                    <p class="text-size-h2">Soy un texto h2</p>
+                    <p class="text-size-h3">Soy un texto h3</p>
+                    <p class="text-size-h4">Soy un texto h4</p>
+                    <p class="text-size-h5">Soy un texto h5</p>
+                    <p class="text-size-h6">Soy un texto h6</p>
+
+                </div>
+
+                <h1 id="Grosor" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Grosor:</h1>
+                <hr class="font-color-chihiro">
+                    <p class="m-top ">
+                        Cambia rápidamente el font-weight del texto con estas utilidades. Las de utilidades font-weight se abrevian como <span class="font-color-susuwatari fweight-bold">fweight</span>
+                       <br><br>
+                    </p>
+    <pre class="prettyprint subtitle text-size-h6">
+    
+    &lt;div class="fweight-bold"&gt;Soy un texto en negrita&lt;/div&gt;
+    &lt;div class="fweight-bolder"&gt;Soy un texto en negrita (Relativo al elemento principal)&lt;/div&gt;
+    &lt;div class="fweight-italic"&gt;Soy un texto en cursiva&lt;/div&gt;
+    &lt;div class="fweight-normal"&gt;Soy un texto normal&lt;/div&gt;
+
+    </pre>
+    <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_PINK_V3.svg" alt="" height="20px" width="30px">Resultado: </h1>
+                    <div class="text-center">
+                        <p class="fweight-bold">Soy un texto en negrita</p>
+                        <p class="fweight-bolder">Soy un texto en negrita (Relativo al elemento principal)</p>
+                        <p class="fweight-italic">Soy un texto en cursiva</p>
+                        <p class="fweight-normal">Soy un texto normal</p>
+    
+                    </div>
+
+                    
+                <h1 id="Color" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Color:</h1>
+                <hr class="font-color-chihiro">
+                    <p class="m-top ">
+                        Colorea el texto con utilidades de color. Con la clase <span class="font-color-susuwatari fweight-bold">font-color</span> especificando el color.
+                       <br><br>
+                    </p>
+    <pre class="prettyprint subtitle">
+    
+    &lt;div class="fweight-bold"&gt;Soy un texto en negrita&lt;/div&gt;
+    &lt;div class="fweight-bolder"&gt;Soy un texto en negrita (Relativo al elemento principal)&lt;/div&gt;
+    &lt;div class="fweight-italic"&gt;Soy un texto en cursiva&lt;/div&gt;
+    &lt;div class="fweight-normal"&gt;Soy un texto normal&lt;/div&gt;
+
+    </pre>
+    <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_GREEN_V3.svg" alt="" height="20px" width="30px">Resultado: </h1>
+                    <div class="text-center">
+                        <p class="font-color-akio">Soy un texto color Akio</p>
+                        <p class="font-color-chihiro">Soy un texto color Chihiro</p>
+                        <p class="font-color-haku">Soy un texto color Haku</p>
+                        <p class="font-color-lin">Soy un texto color Lin</p>
+                        <p class="font-color-noface">Soy un texto color No Face</p>
+                        <p class="font-color-susuwatari">Soy un texto color Susuwatari</p>
+                        <p class="font-color-yubaba">Soy un texto color Yubaba</p>
+                        <p class="font-color-zeniba">Soy un texto color Zeniba</p>
+                        <p class="font-color-negro">Soy un texto color Negro</p>
+                    </div>
+
+                    <h1 id="Tipo" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Tipo de texto:</h1>
+                    <hr class="font-color-chihiro">
+                        <p class="m-top ">
+                            Colorea el texto con utilidades de color. Con la clase <span class="font-color-susuwatari fweight-bold">font-color</span> especificando el color.
+                           <br><br>
+                        </p>
+        <pre class="prettyprint subtitle">
+        
+    &lt;div class="title"&gt;Soy un titulo&lt;/div&gt;
+    &lt;div class="subtitle"&gt;Soy un Subtitulo&lt;/div&gt;
+    &lt;div class="text"&gt;Soy un texto normal&lt;/div&gt;
+    &lt;div class="msg"&gt;Soy un mensaje&lt;/div&gt;</i>
+    
+        </pre>
+        <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_YELLOW_V3.svg" alt="" height="20px" width="30px">Resultado: </h1>
+                        <div class="text-center text-size-h1">
+                            <p class="title">Soy un titulo</p>
+                            <p class="subtitle">Soy un Subtitulo</p>
+                            <p class="text">Soy un texto normal</p>
+                            <p class="msg">Soy un mensaje</p>
+                        </div>
+
+
+                    <h1 id="Alineacion" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Alineacion de texto:</h1>
+                    <hr class="font-color-chihiro">
+                        <p class="m-top ">
+                            Realinea fácilmente el texto de los componentes con clases de alineación de texto. Para la alineación <span class="font-color-susuwatari fweight-bold">start</span>, <span class="font-color-susuwatari fweight-bold">end</span>
+                             y <span class="font-color-susuwatari fweight-bold">end</span>, hay disponibles clases de respuesta que usan los mismos breakpoints de ancho de viewport que el sistema de cuadrícula
+                           <br><br>
+                        </p>
+        <pre class="prettyprint subtitle">
+        
+    &lt;p class="text-start"&gt;Soy un texto alineado al inicio&lt;/p&gt;
+    &lt;p class="text-end"&gt;Soy un texto alineado al fianl&lt;/p&gt;
+    &lt;p class="text-center"&gt;Soy un texto centrado&lt;/p&gt;</i>
+    
+        </pre>
+        <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_PINK_V3.svg" alt="" height="20px" width="30px">Resultado: </h1>
+                            <p class="text-start">Soy un texto alineado al inicio</p>
+                            <p class="text-end">Soy un texto alineado al fianl</p>
+                            <p class="text-center">Soy un texto centrado</p>
+
+                            
+                    <h1 id="Tranformacion" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Transformacion y ajustar texto:</h1>
+                    <hr class="font-color-chihiro">
+                        <p class="m-top ">
+                            Transforma texto en mayusculas, minusculas y capitalizado, tambien ajusta el texto con una clase
+                           <br><br>
+                        </p>
+        <pre class="prettyprint subtitle">
+        
+    &lt;div class="text-uppercase"&gt;Soy un texto en mayusculas&lt;/div&gt;
+    &lt;div class="text-lowercase"&gt;Soy un texto en MINUSCULAS&lt;/div&gt;
+    &lt;div class="text-capitalize"&gt;soy un texto capitalizado&lt;/div&gt;
+    &lt;div class="text-wrap"&gt;Soy un texto que se ajusta al tamaño de su contenedor&lt;/div&gt;</i>
+    
+        </pre>
+        <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_GREEN_V3.svg" alt="" height="20px" width="30px">Resultado: </h1>
+
+        <p class="p text-uppercase">Soy un texto en mayusculas</p>
+        <p class="p text-lowercase">Soy un texto en MINUSCULAS</p>
+        <p class="p text-capitalize">soy un texto capitalizado</p>
+        <div class="cards-container">
+            <div class=" text-wrap bg-color-chihiro" style="width: 90px;"><p>Soy un texto que se ajusta al tamaño de su contenedor. </p></div>
+            <div class=" bg-color-chihiro" style="width: 90px;"><p>Soy un texto que NO se ajusta al tamaño de su contenedor.</p></div>
+        </div>
+        
+        <h1 id="Decoracion" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Decoracion de texto:</h1>
+        <hr class="font-color-chihiro">
+            <p class="m-top ">
+                Decora texto en componentes con clases de decoración de texto. Para decorar un texto existen varias combinaciones, el primer parametro es
+                la ubicacion de la linea como <span class="font-color-susuwatari fweight-bold">overline</span>, <span class="font-color-susuwatari fweight-bold">underline</span> y 
+                <span class="font-color-susuwatari fweight-bold">line-throught</span>, lo siguiente es especificar el diseño de esta linea.
+               <br><br>
+            </p>
+<pre class="prettyprint subtitle">
+
+    &lt;div class="text-deco-overline"&gt;Soy un texto con overline&lt;/div&gt;
+    &lt;div class="text-deco-line-through"&gt;Soy un texto con line-throught&lt;/div&gt;
+    &lt;div class="text-deco-underline"&gt;Soy un texto con underline&lt;/div&gt;
+    &lt;a class="text-deco-none"&gt;Soy un link sin decoracion&lt;/a&gt;
+    &lt;div class="text-deco-underline-dashed"&gt;Soy un texto con underline de guiones&lt;/div&gt;
+    &lt;div class="text-deco-underline-wavy"&gt;Soy un texto con underline de curvas&lt;/div&gt;
+    &lt;div class="text-deco-underline-dotted"&gt;Soy un texto con underline de puntos&lt;/div&gt;
+    &lt;div class="text-deco-underline-double"&gt;Soy un texto con underline doble&lt;/div&gt;
+    &lt;div class="text-deco-underline-line-through"&gt;Soy un texto con underline y line-throught&lt;/div&gt;
+<br>
+</pre>
+
+        <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_YELLOW_V3.svg" alt="" height="20px" width="30px">Resultado: </h1>
+
+        <div class="text-center subtitle">
+            <div class="m text-deco-overline">Soy un texto con overline</div>
+            <div class="m text-deco-line-through">Soy un texto con line-throught</div>
+            <div class="m text-deco-underline">Soy un texto con underline</div>
+            <a class="m text-deco-none">Soy un link sin decoracion</a>
+            <div class="m text-deco-underline-dashed">Soy un texto con underline de guiones</div>
+            <div class="m text-deco-underline-wavy">Soy un texto con underline de curvas</div>
+            <div class="m text-deco-underline-dotted">Soy un texto con underline de puntos</div>
+            <div class="m text-deco-underline-double">Soy un texto con underline doble</div>
+            <div class="m text-deco-underline-line-through">Soy un texto con underline y line-throught</div>
+        </div>
+
+</div>
+
+                                
+        </div>
+
+
+
+
+        <!-- Columna 3 -->
+        <div class="grid-pulubli">
+            <br><br><br>
+            <h1 class="subtitle font-spacing font-color-yubaba">Tabla de contenidos</h1>
+            <ul>
+                <li class="m-2"><a class=" text-deco-none font-hover-chihiro subtitle font-color-yubaba"  href="#Tamaño">Tamaño</a></li>
+                <li class="m-2"><a class=" text-deco-none font-hover-chihiro subtitle font-color-yubaba"  href="#Grosor">Grosor</a></li>
+                <li class="m-2"><a class=" text-deco-none font-hover-chihiro subtitle font-color-yubaba"  href="#Color">Color</a></li>
+                <li class="m-2"><a class=" text-deco-none font-hover-chihiro subtitle font-color-yubaba"  href="#Tipo">Tipo de texto</a></li>
+                <li class="m-2"><a class=" text-deco-none font-hover-chihiro subtitle font-color-yubaba"  href="#Alineacion">Alineacion de texto</a></li>
+                <li class="m-2"><a class=" text-deco-none font-hover-chihiro subtitle font-color-yubaba"  href="#Tranformacion">Transformacion de texto</a></li>
+                <li class="m-2"><a class=" text-deco-none font-hover-chihiro subtitle font-color-yubaba"  href="#Decoracion">Decoracion de texto</a></li>
+                            
+            </ul>
+        </div>
+
+    </div>
+
+
+
+    </div>
+
+    <br><br><br>
+    <!-- Pie de pagina -->
+    <div class="footer bg-color-haku"> 
+        <div class="footer_container">
+
+            <div class="footer_container_col">
+              <h1 class="title text-size-h1 text-uppercase">Home</h1>
+              <p>¿Cómo utilizar?</p>
+              <ul>
+                <li><a href="./documentacion.html">Instalación</a></li>
+                <li><a href="./documentacion.html">Documentación</a></li>
+                <li><a href="">Donar, que bendicion</a></li>
+              </ul>
+            </div>
+    
+            
+            <div class="footer_container_col">
+              <h1 class="title text-size-h1 text-uppercase">GRUPO</h1>
+              <p>¿Quiénes somos?</p>
+              <ul>
+                <li><a href="https://github.com/BeatrizzJimenezz">Beatriz Jiménez</a></li>
+                <li><a href="https://github.com/EverVC">Ever Vásquez</a></li>
+                <li><a href="">Rebeca Castro</a></li>
+              </ul>
+            </div>
+    
+            
+            <div class="footer_container_col">
+              <h1 class="title text-size-h1 text-uppercase">Inspiración</h1>
+              <p>Pelicula</p>
+              <ul>
+                <li><a href="https://ghibli-park.jp/en/">Studio Ghibli Park</a></li>
+                <li><a href="https://www.ghibli-museum-shop.jp/contents/news/20230421/">Ghibli Museum</a></li>
+                <li><a href="https://www.ghibli.jp/works/chihiro/#frame">Galeria</a></li>
+              </ul>
+            </div>
+    
+            
+            <div class="footer_container_col">
+              <h1 class="title text-size-h1 text-uppercase ">Asignación</h1>
+              <p>HDP155</p>
+              <ul>
+                <li><a href="https://docs.google.com/document/d/157iQ6ldo7Y0N43R4LEDk_DwQ4_2aM-j4/edit">Indicaciones</a></li>
+                <li><a href="https://www.ues.edu.sv/">Universidad</a></li>
+                <li><br></li>
+              </ul>
+            </div>
+    </div>
+</div>
+
+    <div class="container-xxl bg-color-yubaba">
+        <br>
+        <p class="text-size-h2 title text-center font-color-blanco">¡Gracias por ver!</p>
+        <br>
+    </div>
+
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>

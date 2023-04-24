@@ -1,0 +1,141 @@
+//colores
+$firstColor:#c76862;
+$secondColor: #87bba2;
+$threeColor:#9d0129;
+$fourColor: #b54d68;
+$fiveColor: #3c2f29;
+$sixColor: #437155;
+$sevenColor: #8d83c3;
+$eightColor: #dc8eb5;
+$bk:#16161d;
+$gray: #9fa9a3;
+//formulario size
+$sizeDivL: 100%;
+$sizeDivL: 50%;
+//formulario 1
+*{box-sizing:content-box;}
+.formS{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid $bk;
+    background-color: $secondColor;
+    padding: 20px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid $bk;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid $bk;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  input[type=submit] {
+    background-color:$bk;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color:$gray;
+  }
+  
+ //end formulario 1
+
+ //formulario 2
+ @mixin toformM{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: $firstColor;
+    padding: 20px;
+ }
+ @mixin to-input-type-text-select-m{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid $firstColor;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+ @mixin to-input-type-submit-m{
+    width: 100%;
+    background-color:$sevenColor;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ @mixin to-input-type-submit-hover{
+    background-color:$eightColor;
+ }
+ //selectores
+ .formM{
+    @include toformM;
+ }
+ 
+
+
+ //end formulario 2
+ @mixin toformL{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: $sevenColor;
+    padding: 10px;
+   
+ }
+ @mixin to-input-type-text-select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid $eightColor;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+ @mixin to-input-type-submit{
+    width: 100%;
+    background-color:$sevenColor;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: $fourColor;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ @mixin to-input-type-submit-hover{
+    background-color:$sixColor;
+ }
+ //formulario 3
+ //selectores
+ .formL{
+    @include toformL;
+ }
+ 

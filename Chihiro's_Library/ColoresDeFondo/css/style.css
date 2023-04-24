@@ -1,0 +1,53 @@
+.bg-gradient-susuwatari-haku {
+  background: linear-gradient(to right, #b54d68, #87bba2);
+}
+.bg-gradient-chihiro-noface {
+  background: linear-gradient(to right, #c76862, #8d83c3);
+}
+
+.bg-color-chihiro {
+  background-color: #c76862;
+}
+.bg-color-haku {
+  background-color: #87bba2;
+}
+.bg-color-zeniba {
+  background-color: #9d0129;
+}
+.bg-color-lin {
+  background-color: #dc8eb5;
+}
+.bg-color-yubaba {
+  background-color: #271e17;
+}
+.bg-color-akio {
+  background-color: #437155;
+}
+.bg-color-noface {
+  background-color: #8d83c3;
+}
+.bg-color-susuwatari {
+  background-color: #b54d68;
+}
+
+.bg-color-transparente {
+  background-color: transparent;
+}
+
+.bg-opacity-10 {
+  opacity: 0.1;
+}
+
+.bg-opacity-25 {
+  opacity: 0.3;
+}
+
+.bg-opacity-50 {
+  opacity: 0.6;
+}
+
+.bg-opacity-75 {
+  opacity: 0.9;
+}
+
+/*# sourceMappingURL=style.css.map */

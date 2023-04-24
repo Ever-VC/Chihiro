@@ -1,0 +1,96 @@
+@use './variables';
+
+@mixin text-shadow($name-pos-y, $pos-y, $name-pos-x, $pos-x, $name, $color){
+    &{
+        text-shadow: 0 0 5px variables.$yubaba;
+        &-#{$name} {
+            text-shadow: 0 0 5px $color;
+        }
+    }
+    &-#{$name-pos-y}{
+        text-shadow: 0 $pos-y 5px variables.$yubaba ;
+        &-#{$name} {
+            text-shadow: 0 $pos-y 5px $color;
+        }
+        &-#{$name-pos-x}{
+            text-shadow: $pos-x $pos-y 5px variables.$yubaba ;
+            &-#{$name} {
+                text-shadow: $pos-x $pos-y 5px $color;
+            }
+        }
+    }  
+    &-#{$name-pos-x}{
+        text-shadow: $pos-x 0 5px variables.$yubaba ;
+        &-#{$name} {
+            text-shadow: $pos-x 0 5px $color;
+        }
+    }
+}
+
+@mixin box-shadow($name-pos-y, $pos-y, $name-pos-x, $pos-x, $name, $color){
+    &{
+        box-shadow: 0 0 10px variables.$yubaba;
+        &-#{$name} {
+            box-shadow: 0 0 10px $color;
+        }
+    }
+    &-#{$name-pos-y}{
+        box-shadow: 0 $pos-y 10px variables.$yubaba ;
+        &-#{$name} {
+            box-shadow: 0 $pos-y 10px $color;
+        }
+        &-#{$name-pos-x}{
+            box-shadow: $pos-x $pos-y 10px variables.$yubaba ;
+            &-#{$name} {
+                box-shadow: $pos-x $pos-y 10px $color;
+            }
+        }
+    }  
+    &-#{$name-pos-x}{
+        box-shadow: $pos-x 0 10px variables.$yubaba ;
+        &-#{$name} {
+            box-shadow: $pos-x 0 10px $color;
+        }
+    }
+}
+
+@mixin button-shadow($name-pos-y, $pos-y, $name-pos-x, $pos-x, $name, $color){
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 10px variables.$yubaba;
+    }
+    &-#{$name}:hover {
+        cursor: pointer;
+        box-shadow: 0 0 10px $color;
+    }
+    &-#{$name-pos-y} {
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0 $pos-y 10px variables.$yubaba ;
+        }
+        &-#{$name}:hover {
+            cursor: pointer;
+            box-shadow: 0 $pos-y 10px $color;
+        }
+        &-#{$name-pos-x} {
+            &:hover {
+                cursor: pointer;
+                box-shadow: $pos-x $pos-y 10px variables.$yubaba ;
+            }
+            &-#{$name}:hover {
+                cursor: pointer;
+                box-shadow: $pos-x $pos-y 10px $color;
+            }
+        }
+    }  
+    &-#{$name-pos-x} {
+        &:hover {
+            cursor: pointer;
+            box-shadow: $pos-x 0 10px variables.$yubaba ;
+        }
+        &-#{$name}:hover {
+            cursor: pointer;
+            box-shadow: $pos-x 0 10px $color;
+        }
+    }
+}

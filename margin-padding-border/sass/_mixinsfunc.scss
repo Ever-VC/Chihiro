@@ -1,0 +1,64 @@
+@mixin margin-padding($pos, $type) {
+    $value: 'rem';
+    & {
+        @for $size from 1 through 10 {
+            &-#{$size} {
+                #{$type}: #{$size}#{$value};
+                & {
+                    width: calc(100% - (#{$size}#{$value} *2));
+                    height: calc(100% - (#{$size}#{$value} * 2));
+                }
+            }
+        }
+    }
+    
+    &-#{$pos} {
+        $Ntype: '#{$type}-#{$pos}';
+        #{$Ntype}: 1rem;
+        @for $size from 1 through 10 {
+            &-#{$size} {
+                #{$Ntype}: #{$size}#{$value};
+                @if $pos == 'left' or $pos == 'right' {
+                    & {
+                        width: calc(100% - (#{$size}#{$value} * 2));
+                    }
+                }
+                @if $pos == 'top' or $pos == 'bottom' {
+                    & {
+                        height: calc(100% - (#{$size}#{$value} * 2));
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@mixin border($name, $color, $size, $type){
+    & {
+        border: black 2px solid;
+    }
+    &-#{$name} {
+        border: #{$color} 2px solid;
+        &-#{$size} {
+            border: #{$color} #{$size}px solid;
+            &-#{$type} {
+                border: #{$color} #{$size}px #{$type};
+            }
+        }
+        &-#{$type} {
+            border: #{$color} 2px #{$type};
+        }
+    }
+
+    &-#{$size} {
+        border: #{$color} #{$size}px solid;
+        &-#{$type} {
+            border: black #{$size}px #{$type};
+        }
+    }
+
+    &-#{$type} {
+        border: black 2px #{$type};
+    }
+}

@@ -1,0 +1,53 @@
+$chihiro: #c76862;
+$haku: #87bba2;
+$zeniba: #9d0129;
+$lin: #b54d68;
+$yubaba: #3c2f29;
+$akio: #437155;
+$noface: #8d83c3;
+$noseaun: #dc8eb5;
+$nose : #b9b901;
+
+$colors: 
+    'chihiro' #{$chihiro}, 
+    'haku' #{$haku}, 
+    'zeniba' #{$zeniba}, 
+    'lin' #{$lin}, 
+    'yubaba' #{$yubaba},
+    'akio' #{$akio},
+    'noface' #{$noface},
+    'noseaun' #{$noseaun}
+;
+
+$positions-y: 
+    'top' ,
+    'bottom',
+    'block-start',
+    'block-end'
+;
+
+$positions-x: 
+    'left',
+    'right',
+    'inline-start',
+    'inline-end'
+;
+
+$border-size:
+    2,
+    4,
+    6,
+    8,
+    10
+;
+
+$type_borders:
+    'solid',
+    'dotted',
+    'dashed',
+    'double',
+    'groove',
+    'ridge',
+    'inset',
+    'outset'
+ ;

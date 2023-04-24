@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Jumble";
+  src: url(https://use.typekit.net/af/05eeea/00000000000000007735a9eb/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3);
+}
+.navbar {
+  height: 80px;
+  display: flex;
+  z-index: 10;
+  position: relative;
+  justify-content: space-between;
+}
+.navbar_logo {
+  cursor: pointer;
+  font-size: 3.5rem;
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+}
+.navbar_bars {
+  opacity: 0;
+}
+@media screen and (max-width: 900px) {
+  .navbar_bars {
+    color: #271e17;
+    opacity: 1;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    font-size: 2rem;
+  }
+}
+.navbar_menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin-right: 24px;
+}
+@media screen and (max-width: 900px) {
+  .navbar_menu {
+    display: none;
+  }
+}
+
+.menu-1 {
+  background-color: #271e17;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-1 li {
+  margin: 10px 10px;
+}
+
+.menu-1 a {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #8d83c3;
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-2 {
+  display: flex;
+  width: 100%;
+  background-color: black;
+}
+
+.logo1 {
+  background-color: yellowgreen;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav1 {
+  width: 60%;
+  background-color: pink;
+}
+
+.search {
+  background-color: white;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-3 {
+  background-color: #271e17;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-3 li {
+  margin: 10px 10px;
+}
+
+.menu-3 a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-3 :hover {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #8d83c3;
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=style.css.map */

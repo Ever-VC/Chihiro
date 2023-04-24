@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chihiro's Library • Botones</title>
+    <link rel="stylesheet" href="../reset.css">
+    <!-- Iconos Virtuales -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"/>
+    <!-- Icon-->
+    <link rel="icon" href="img/kuro02.svg">
+    <!-- Librerias -->
+    <link rel="stylesheet" href="../Alertas/css/style.css">
+    <link rel="stylesheet" href="../badges/css/badges.css">
+    <link rel="stylesheet" href="../hide-elements/css/hide.css">
+    <link rel="stylesheet" href="../margin-padding-border/css/margin-padding-border.css">
+    <link rel="stylesheet" href="../move-elements/css/position.css">
+    <link rel="stylesheet" href="../Botones/css/style.css">
+    <link rel="stylesheet" href="../EdicionDeTexto/css/style.css">
+    <link rel="stylesheet" href="../RedondearElementos/css/style.css">
+    <link rel="stylesheet" href="../Contenedores/css/contenedores.css">
+    <link rel="stylesheet" href="../ColoresDeFondo/css/style.css">
+    <link rel="stylesheet" href="../BarraDeNavegacion/css/style.css">
+    <link rel="stylesheet" href="../Tarjetas/css/style.css">
+    <link rel="stylesheet" href="../shadow/css/shadow.css">
+    <link rel="stylesheet" href="../Formularios/css/style.css">
+    <!-- CSS SITIO WEB -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <!-- Barra de navegacion -->
+    <div class="bg-color-transparente">
+        <nav class="navbar">
+          <div onclick="location.href='./documentacion.html'" class="navbar_logo title font-color-yubaba"><img src="../img/kuro02.svg" alt="" height="75px" width="80px">Chihiro</div>
+          <div class="navbar_bars" ><i class="fas fa-bars"></i></div>
+          <ul class="navbar_menu">
+            <button class="btn-colored-lin text-size-h hov" onclick="location.href='./index.html'">Inicio</button>
+            <li><a href="https://github.com/EverVC/Chihiro.git"><div class="btn btn-icon-lin"><i class="fab fa-github fa-3x"></i></div></a></li>
+            <li><a href=""><div class="btn btn-icon-lin"><i class="fas fa-user-circle fa-3x"></i></div></a></li>
+            <li><a href="https://www.netflix.com/sv-en/title/60023642"><div class="btn btn-icon-lin"><i class="fas fa-compact-disc fa-3x"></i></div></a></li>
+        </ul>
+        </nav>
+    </div>
+
+    <!-- CONTENIDO GRID -->
+    <div class="m grid"> 
+
+        <!-- Columna 1 -->
+        <div class="grid-nav font-color-yubaba">
+          <p class="m"><span class="text-size-h4 hov m fweight-bolder ">CONTENIDO:</span></p><br>
+          <p onclick="location.href='./botones.html'"><span class="font-hover-lin hov m">Botones</span></p><br>
+          <p onclick="location.href='./formularios.html'"><span class="font-hover-lin hov m">Formularios</span></p><br>
+          <p onclick="location.href='./tarjetas.html'"><span class="font-hover-lin hov m">Tarjetas</span></p><br>
+          <p onclick="location.href='./alertas.html'"><span class="font-hover-lin hov m">Alertas</span></p><br>
+          <p onclick="location.href='./navbar.html'"><span class="font-hover-lin hov m">Barras de navegación</span></p><br>
+          <p onclick="location.href='./badges.html'"><span class="font-hover-lin hov m">Badges</span></p><br>
+          <p onclick="location.href='./contenedores.html'"><span class="font-hover-lin hov m">Contenedores</span></p><br>
+          <p onclick="location.href='./edicionTexto.html'"><span class="font-hover-lin hov m">Tamaño, grosor, color y tipo de letra</span></p><br>
+          <p onclick="location.href='./sombras.html'"><span class="font-hover-lin hov m">Sombras</span></p><br>
+          <p onclick="location.href='./margen_padding_borde.html'"><span class="font-hover-lin hov m">Márgenes, paddings y bordes</span></p><br>
+          <p onclick="location.href='./mover_elementos.html'"><span class="font-hover-lin hov m">Mover elementos</span></p><br>
+          <p onclick="location.href='./redondear.html'"><span class="font-hover-lin hov m">Redondear elementos</span></p><br>
+          <p onclick="location.href='./ocultar_elementos.html'"><span class="font-hover-lin hov m">Ocultar elementos</span></p><br>
+          <p onclick="location.href='./coloresFondo.html'" class="m-bottom"><span class="font-hover-lin hov m">Color de fondo</span></p>
+        </div>
+
+        <!-- Columna 2 -->
+        <div class="grid-cont font-color-yubaba">
+            <h1 class="title h1-doc text-uppercase text-center font-color-lin">REDONDEAR ELEMENTOS</h1>
+            <div class="m-left-2 text-size-h4 font-spacing">
+
+            <h1 id="Redondear" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Redondeo general: </h1>
+            <hr class="font-color-lin btn">
+                <p class="m-top-1 m-bottom-2 font-spacing text-size-h4 font-color-yubaba">
+                    Agrega clase la clase <span class="font-color-akio fweight-bold">rounded</span> a un elemento para redondear fácilmente sus esquinas.
+                    Puedes determinar la esquina a redonder y cuanto redondearlo.
+                </p>
+
+                <pre class="prettyprint subtitle">
+
+    &lt;div class="rounded-10 "&gt;rounded-10&lt;/div&gt;
+    &lt;div class="rounded-20 "&gt;rounded-20&lt;/div&gt;
+    &lt;div class="rounded-30 "&gt;rounded-30&lt;/div&gt;
+    &lt;div class="rounded-30 "&gt;rounded-40&lt;/div&gt;
+    &lt;div class="rounded-60 "&gt;rounded-60&lt;/div&gt;
+    &lt;div class="rounded-80 "&gt;rounded-80&lt;/div&gt;</i>
+
+                </pre>
+
+                <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_PINK_V3.svg" alt="" height="20px" width="30px">Resultado: </h1>
+                <div class="" style="display:flex;">
+                  <div class="rounded-10 bg-color-akio m" style="height: 100px; width: 100px;"></div>
+                  <div class="rounded-20 bg-color-chihiro m" style="height: 100px; width: 100px;"></div>
+                  <div class="rounded-30 bg-color-noface m" style="height: 100px; width: 100px;"></div>
+                  <div class="rounded-30 bg-color-lin m" style="height: 100px; width: 100px;"></div>
+                  <div class="rounded-60 bg-color-yubaba m" style="height: 100px; width: 100px;"></div>
+                  <div class="rounded-80 bg-color-susuwatari m" style="height: 100px; width: 100px;"></div>
+                </div>
+
+
+
+                <h1 id="Especifico" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Redondear especificamente: </h1>
+                <hr class="font-color-lin btn">
+                    <p class="m-top-1 m-bottom-2 font-spacing text-size-h4 font-color-yubaba">
+                        Luego de <span class="font-color-akio fweight-bold">rounded</span> puedes espeficicar que esquinas quieres redondear con <span class="font-color-akio fweight-bold">bottom</span>,
+                        <span class="font-color-akio fweight-bold">top</span>, <span class="font-color-akio fweight-bold">diagonal</span> y <span class="font-color-akio fweight-bold">diagonal-reversive</span>.
+                    </p>
+    
+                    <pre class="prettyprint subtitle">
+
+
+    &lt;div class="rounded-bottom-10 "&gt;rounded-bottom-10&lt;/div&gt;
+    &lt;div class="rounded-bottom-80 "&gt;rounded-bottom-80&lt;/div&gt;
+    &lt;div class="rounded-top-10 "&gt;rounded-top-10&lt;/div&gt;
+    &lt;div class="rounded-top-10 "&gt;rounded-top-10&lt;/div&gt;<br>
+                    </pre>
+    
+                    <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_GREEN_V3.svg" alt="" height="20px" width="30px">Resultado especificando bottom y top: </h1>
+                    <div class="" style="display:flex;">
+                      <div class="rounded-bottom-10 bg-color-chihiro m" style="height: 100px; width: 100px;"></div>
+                      <div class="rounded-bottom-80 bg-color-chihiro m" style="height: 100px; width: 100px;"></div>
+                      <div class="rounded-top-10 bg-color-noface m" style="height: 100px; width: 100px;"></div>
+                      <div class="rounded-top-80 bg-color-noface m" style="height: 100px; width: 100px;"></div>
+
+                    </div>
+
+                    <pre class="prettyprint subtitle"><br>
+    &lt;div class="rounded-diagonal-10 "&gt;rounded-diagonal-10&lt;/div&gt;
+    &lt;div class="rounded-diagonal-80 "&gt;rounded-diagonal-80&lt;/div&gt;
+    &lt;div class="rounded-diagonal-reversive-10"&gt;rounded-diagonal-reversive-10&lt;/div&gt;
+    &lt;div class="rounded-diagonal-reversive-10"&gt;rounded-diagonal-reversive-10&lt;/div&gt;<br>
+                    </pre>
+
+                    <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_YELLOW_V3.svg" alt="" height="20px" width="30px">Resultado especificando diagonal y diagonal-reversive: </h1>
+                    <div class="" style="display:flex;">
+                        <div class="rounded-diagonal-10 bg-color-zeniba m" style="height: 100px; width: 100px;"></div>
+                        <div class="rounded-diagonal-80 bg-color-zeniba m" style="height: 100px; width: 100px;"></div>
+                        <div class="rounded-diagonal-reversive-10 bg-color-susuwatari m" style="height: 100px; width: 100px;"></div>
+                        <div class="rounded-diagonal-reversive-80 bg-color-susuwatari m" style="height: 100px; width: 100px;"></div>
+                      </div>
+
+      </div>
+       </div>
+        
+
+          <!-- Columna 3 -->
+        <div class="grid-pulubli">
+            <br><br><br>
+            <h1 class="subtitle font-spacing font-color-yubaba">Tabla de contenidos</h1>
+            <ul>
+                <li class="m-2"><a class=" text-deco-none font-hover-lin subtitle font-color-yubaba"  href="#BotonPredeterminado">Boton</a></li>
+                <li class="m-2"><a class=" text-deco-none font-hover-lin subtitle font-color-yubaba" href="#btnhover">Botones con hover</a></li>
+                <li class="m-2"><a class=" text-deco-none font-hover-lin subtitle font-color-yubaba" href="#btnTamaño">Tamaño de boton</a></li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <br><br><br>
+    <br><br><br>
+    <!-- Pie de pagina -->
+    <div class="footer bg-color-haku"> 
+      <div class="footer_container">
+
+        <div class="footer_container_col">
+          <h1 class="title text-size-h1 text-uppercase">Home</h1>
+          <p>¿Cómo utilizar?</p>
+          <ul>
+            <li><a href="./documentacion.html">Instalación</a></li>
+            <li><a href="./documentacion.html">Documentación</a></li>
+            <li><a href="">Donar, que bendicion</a></li>
+          </ul>
+        </div>
+
+        
+        <div class="footer_container_col">
+          <h1 class="title text-size-h1 text-uppercase">GRUPO</h1>
+          <p>¿Quiénes somos?</p>
+          <ul>
+            <li><a href="https://github.com/BeatrizzJimenezz">Beatriz Jiménez</a></li>
+            <li><a href="https://github.com/EverVC">Ever Vásquez</a></li>
+            <li><a href="">Rebeca Castro</a></li>
+          </ul>
+        </div>
+
+        
+        <div class="footer_container_col">
+          <h1 class="title text-size-h1 text-uppercase">Inspiración</h1>
+          <p>Pelicula</p>
+          <ul>
+            <li><a href="https://ghibli-park.jp/en/">Studio Ghibli Park</a></li>
+            <li><a href="https://www.ghibli-museum-shop.jp/contents/news/20230421/">Ghibli Museum</a></li>
+            <li><a href="https://www.ghibli.jp/works/chihiro/#frame">Galeria</a></li>
+          </ul>
+        </div>
+
+        
+        <div class="footer_container_col">
+          <h1 class="title text-size-h1 text-uppercase ">Asignación</h1>
+          <p>HDP155</p>
+          <ul>
+            <li><a href="https://docs.google.com/document/d/157iQ6ldo7Y0N43R4LEDk_DwQ4_2aM-j4/edit">Indicaciones</a></li>
+            <li><a href="https://www.ues.edu.sv/">Universidad</a></li>
+            <li><br></li>
+          </ul>
+        </div>
+      </div>
+  </div>
+    <div class="container-xxl bg-color-yubaba">
+        <br>
+        <p class="text-size-h2 title text-center font-color-blanco">¡Gracias por ver!</p>
+        <br>
+    </div>
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>

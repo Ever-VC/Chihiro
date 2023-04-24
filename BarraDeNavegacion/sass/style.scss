@@ -1,0 +1,167 @@
+@use '../../variables.scss';
+
+@mixin tablet {
+    @media screen and (max-width: 900px) {
+      @content;
+    }
+  }
+  
+  @mixin mobile {
+    @media screen and (max-width: 500px) {
+      @content;
+    }
+  }
+
+  .navbar {
+    height: 80px;
+    display: flex;
+    z-index: 10;
+    position: relative;
+    justify-content: space-between;
+  
+    &_logo {
+      cursor: pointer;
+      font-size: 3.5rem;
+      margin-left: 24px;
+      display: flex;
+      align-items: center;
+    }
+  
+    &_bars {
+      opacity: 0;
+  
+      @include tablet 
+      {
+        color: variables.$yubaba;
+        opacity: 1;
+        position: absolute;
+        top: 22px;
+        right: 20px;
+        font-size: 2rem;
+      }
+    }
+  
+    &_menu 
+    {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      text-align: center;
+      margin-right: 24px;
+  
+      @include tablet {
+        display: none;
+      }
+  
+    }
+  }
+
+
+  //SEGUNDO NAVBAR
+$chihiro: #c76862;
+$haku: #87bba2;
+$zeniba: #9d0129;
+$lin: #b54d68;
+$yubaba: #271e17 ;
+$akio: #437155;
+$noface: #8d83c3;
+$susuwatari: #dc8eb5;
+$blanco: #fafaf8;
+$negro: #16161d;
+//menu-1:
+@mixin menuUno{
+    background-color: $yubaba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-1 {
+    @include menuUno;
+}
+.menu-1 li {
+    margin: 10px 10px;
+}
+
+
+//mixin
+@mixin link-m1{
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: $noface;
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    justify-content: space-around;
+}
+//css
+.menu-1 a {
+@include link-m1;
+}
+//menu-2:
+//mixin
+@mixin centrarContenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//css
+.menu-2{
+    display: flex;
+    width: 100%;
+    background-color: black;
+  
+}
+   
+.logo1{
+  background-color: yellowgreen;
+  width: 20%;
+ @include centrarContenido;
+
+
+}
+
+.nav1 {
+    width: 60%;
+    background-color: pink;
+   
+}
+.search{
+    background-color: white;
+    width: 20%;
+    @include centrarContenido();
+
+}
+//menu-3:
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+@mixin menu{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-3{
+    @include menuUno;
+}
+.menu-3 li {
+    margin: 10px 10px;
+}
+
+.menu-3 a {
+   // 
+   color: white;
+   text-decoration: none;
+    }
+.menu-3 :hover{
+    @include link-m1;
+}    

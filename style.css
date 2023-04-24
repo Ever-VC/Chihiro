@@ -1,0 +1,135 @@
+
+
+
+@media (min-width:350px) 
+{
+  .Background
+  {
+    background-image: url(img/chihiro025sm.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .grid 
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: auto; */
+    grid-template-areas:
+    "nav"
+    "cont"
+    ;
+    
+  }
+}
+@media (min-width:800px) 
+{
+  .Background
+  {
+    background-image: url(img/chihiro025sm.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .grid 
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: auto; */
+    grid-template-areas:
+    "nav"
+    "cont"
+    ;
+  }
+}
+@media (min-width:980px) 
+{
+  .Background
+  {
+    background-image: url(img/chihiro025md.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    /* grid-template-rows: auto; */
+    grid-template-areas:
+    "nav cont publi"
+    ;
+  }
+}
+@media (min-width:1150px) 
+{
+  .Background
+  {
+    background-image: url(img/chihiro025.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    /* grid-template-rows: auto; */
+    grid-template-areas:
+    "nav cont publi"
+    ;
+  }
+}
+@media (min-width:1500px) 
+{
+  .Background
+  {
+    background-image: url(img/chihiro025.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 111vh;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    /* grid-template-rows: auto; */
+    grid-template-areas:
+    "nav cont publi"
+    ;
+  }
+}
+
+p
+{
+  font-family: "Bebas Neue", cursive;
+}
+
+.grid-nav {
+  grid-area: nav;
+}
+
+.grid-cont {
+  grid-area: cont;
+}
+
+.grid-publi {
+  grid-area: publi;
+}
+
+table, th, td {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+}
+
+.p-font:hover {
+  color: #8d83c3;
+}
+
+.h1-doc
+{
+  font-size: 3rem;
+}
+
+.no-hover:hover
+{
+  transform: none; 
+  box-shadow: 0px 0px 0px rgba(0,0,0,0.3);
+}

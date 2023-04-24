@@ -1,0 +1,398 @@
+@use '../../variables.scss';
+
+$blanco: #fff;
+$negro: #000;
+
+$TipoBotones:
+(
+    "chihiro",
+    "haku",
+    "zeniba",
+    "lin",
+    "yubaba",
+    "akio",
+    "noface",
+);
+
+$TipoColores:
+(
+    #c76862,
+    #87bba2,
+    #9d0129,
+    #dc8eb5,  
+    #271e17,
+    #437155,
+    #8d83c3,
+);
+
+
+@mixin boton($color, $colortexto)
+{
+    @media (max-width: 919px) {
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    background-color:transparent;
+    color: $color;
+    font-size:  2vw;
+    font-weight: 700;
+    transition: all 500ms ease;
+    border: 2px solid $color;
+    margin: 5px;
+}
+
+
+
+@mixin sm
+{
+    height: 25px;
+    width: 80px;
+    padding: 2px 5px 2px 5px;
+    font-size:  0.5rem;
+}
+
+@mixin md
+{
+    height: 40px;
+    width: 130px;
+    padding: 5px 8px 5px 8px;
+    font-size:  0.7rem;
+}
+
+@mixin lg
+{
+    height: 60px;
+    width: 160px;
+    padding: 10px 15px 10px 15px;
+    font-size:  0.9rem;
+}
+
+@mixin puerta($color)
+{
+    &::before
+    {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+        background-color: $color;
+        transition: all 800ms ease;
+        z-index: -1;
+    }
+
+    &::before
+    {
+        width: 0;
+        height: 100%;
+    }
+
+    &:hover
+    {
+        color: $blanco;
+
+        &::before
+        {
+            width: 100%;
+        }
+    }
+}
+
+@mixin luz($color)
+{
+    &:hover
+    {
+        background-color: $color;
+
+        box-shadow: 0 0 10px $color, 0 0 20px $color, 0 0 20px $color;
+        color:$blanco;
+    }
+}
+
+@mixin simple($color)
+{
+    &:hover
+    {
+        background-color: $color;
+        color:$blanco;
+    }
+}
+
+@mixin agrandado($color)
+{
+    &:hover
+    {
+        background-color: transparent;
+        box-shadow: 0 0 0 0 $color, 0 0 0 0 $color, 0 0 0 4px $color;
+        color: $color;
+    }
+}
+
+
+//BOTONES CON LUZ
+@for $iterador from 1 through 7
+{
+    $var: nth($TipoBotones, $iterador);
+
+    .btn-#{$var}-light
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include luz(nth($TipoColores, $iterador));
+    }
+
+    .btn-#{$var}-light-sm
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include luz(nth($TipoColores, $iterador));
+        @include sm();
+    }
+
+    .btn-#{$var}-light-md
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include luz(nth($TipoColores, $iterador));
+        @include md();
+    }
+
+    .btn-#{$var}-light-lg
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include luz(nth($TipoColores, $iterador));
+        @include lg();
+    } 
+}
+
+//BOTONES DE PUERTA
+@for $iterador from 1 through 7
+{
+    $var: nth($TipoBotones, $iterador);
+    
+    .btn-#{$var}-door
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include puerta(nth($TipoColores, $iterador));
+    }
+
+    .btn-#{$var}-door-sm
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include puerta(nth($TipoColores, $iterador));
+        @include sm();
+    }
+
+    .btn-#{$var}-door-md
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include puerta(nth($TipoColores, $iterador));
+        @include md();
+    }
+
+    .btn-#{$var}-door-lg
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include puerta(nth($TipoColores, $iterador));
+        @include lg();
+    }
+}
+
+//BOTONES DE PUERTA Y LUZ
+@for $iterador from 1 through 7
+{
+    $var: nth($TipoBotones, $iterador);
+    .btn-#{$var}-light-door
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include luz(nth($TipoColores, $iterador));
+        @include puerta(nth($TipoColores, $iterador));
+    }
+
+    .btn-#{$var}-light-door-sm
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include luz(nth($TipoColores, $iterador));
+        @include puerta(nth($TipoColores, $iterador));
+        @include sm;
+    }
+
+    .btn-#{$var}-light-door-md
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include luz(nth($TipoColores, $iterador));
+        @include puerta(nth($TipoColores, $iterador));
+        @include md;
+    }
+
+    .btn-#{$var}-light-door-lg
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include luz(nth($TipoColores, $iterador));
+        @include puerta(nth($TipoColores, $iterador));
+        @include lg;
+    }
+}
+
+//BOTONES AGRANDADOS
+@for $iterador from 1 through 7
+{
+    $var: nth($TipoBotones, $iterador);
+    .btn-#{$var}-bigbtn
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include agrandado(nth($TipoColores, $iterador));
+    }
+
+    .btn-#{$var}-bigbtn-sm
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include agrandado(nth($TipoColores, $iterador));
+        @include sm;
+    }
+
+    .btn-#{$var}-bigbtn-md
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include agrandado(nth($TipoColores, $iterador));
+        @include md;
+    }
+
+    .btn-#{$var}-bigbtn-lg
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include agrandado(nth($TipoColores, $iterador));
+        @include lg;
+    }
+}
+
+//BOTONES SIMPLES
+@for $iterador from 1 through 7
+{
+    $var: nth($TipoBotones, $iterador);
+    .btn-#{$var}
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include simple(nth($TipoColores, $iterador));
+    }
+
+    .btn-#{$var}-sm
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include simple(nth($TipoColores, $iterador));
+        @include sm;
+    }
+
+    .btn-#{$var}-md
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include simple(nth($TipoColores, $iterador));
+        @include md;
+    }
+
+    .btn-#{$var}-lg
+    {
+        @include boton(nth($TipoColores, $iterador), $blanco);
+        @include simple(nth($TipoColores, $iterador));
+        @include lg;
+    }
+}
+
+@mixin hover($var, $text)
+{
+    &:hover
+    {
+        color: $var;
+        background-color: $text;
+    }
+}
+
+@for $iterador from 1 through 7
+{
+    $var: nth($TipoBotones, $iterador);
+    $var2: nth($TipoColores, $iterador);
+
+    .btn-colored-#{$var}
+    {
+        @media (max-width: 919px) {
+            -webkit-text-size-adjust: 100%;
+            -moz-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+          }
+          position: relative;
+          overflow: hidden;
+          border-radius: 10px;
+          height: 40px;
+          width: 140px;
+          border: $var2;
+          background-color: $var2;
+          transition: all 500ms ease;
+          color: white;
+          font-size: 1.5rem;
+          font-family: variables.$font2;
+          @include hover($var2, $blanco)
+    }
+
+}
+
+
+ .btn-icon
+ {
+     @media (max-width: 919px) {
+         -webkit-text-size-adjust: 100%;
+         -moz-text-size-adjust: 100%;
+         -ms-text-size-adjust: 100%;
+         text-size-adjust: 100%;
+       }
+       position: relative;
+       overflow: hidden;
+       border-radius: 20px;
+       border: transparent;
+       background-color: transparent;
+       transition: all 500ms ease;
+       color: #271e17;
+       margin: 5px;
+ }
+ .btn-icon:hover
+ {
+     color: $blanco;
+ }
+
+ @mixin hover2($color)
+{
+    &:hover
+    {
+        color: $color;
+    }
+}
+
+@for $iterador from 1 through 7
+{
+    $var: nth($TipoBotones, $iterador);
+    $var2: nth($TipoColores, $iterador);
+
+    .btn-icon-#{$var}
+    {
+        @media (max-width: 919px) {
+            -webkit-text-size-adjust: 100%;
+            -moz-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+          }
+          position: relative;
+          overflow: hidden;
+          border-radius: 20px;
+          border: transparent;
+          background-color: transparent;
+          transition: all 500ms ease;
+          color: #271e17;
+          margin: 5px;
+          @include hover2($var2)
+    }
+
+}

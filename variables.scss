@@ -1,0 +1,124 @@
+//VARIABLES DE COLORES DE FONDO
+$chihiro: #c76862;
+$haku: #87bba2;
+$zeniba: #9d0129;
+$lin: #dc8eb5;
+$yubaba: #271e17 ;
+$akio: #437155;
+$noface: #8d83c3;
+$susuwatari: #b54d68;
+$blanco: #fafaf8;
+$negro: #000;
+$amarillo: #ffd200;
+
+$susuwatari-haku: linear-gradient(to right,#{$susuwatari},#{$haku});
+
+$chihiro-noface: linear-gradient(to right,#{$chihiro},#{$noface});
+
+$gradients :
+    'susuwatari-haku' #{$susuwatari-haku},
+    'chihiro-noface' #{$chihiro-noface}
+;
+
+$ColorsFondo: 
+    'chihiro' #{$chihiro}, 
+    'haku' #{$haku}, 
+    'zeniba' #{$zeniba}, 
+    'lin' #{$lin}, 
+    'yubaba' #{$yubaba},
+    'akio' #{$akio},
+    'noface' #{$noface},
+    'susuwatari' #{$susuwatari},
+;
+
+//VARIABLES DE CONTENEDORES
+
+$breakpoints: 
+(
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px
+);
+
+$container-sizes: (
+  sm: map-get($breakpoints, sm) - 10px,
+  md: map-get($breakpoints, md) - 20px,
+  lg: map-get($breakpoints, lg) - 30px,
+  xl: map-get($breakpoints, xl) - 100px
+);
+
+//VARIABLES DE REDONDEO DE FIGURAS
+$TiposRadios: 
+(
+    "rounded",
+    "rounded-top",
+    "rounded-bottom",
+    "rounded-right",
+    "rounded-left",
+    "rounded-diagonal",
+    "rounded-diagonal-reversive",
+);
+
+$tiposEsquina:(10, 20, 30, 40, 60, 80);
+
+$bg-10: 0.1;
+$bg-25: 0.3;
+$bg-50: 0.6;
+$bg-75: 0.9;
+
+$Opacidad: (10, 25, 50, 75);
+
+$tiposOpacidad:
+(
+    #{$bg-10}, 
+    #{$bg-25}, 
+    #{$bg-50}, 
+    #{$bg-75}, 
+);
+
+//FUENTES
+@font-face{
+    font-family: "Jumble"; 
+    src: url(https://use.typekit.net/af/05eeea/00000000000000007735a9eb/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+};
+
+
+$font1: "Bebas Neue", cursive;
+$font2: jumble, sans-serif;
+
+//VARIABLES DE EDICION DETEXTO
+
+$base: 0.8rem;
+$txt-sm: $base * 0.875;
+$txt-lg: $base * 1.25;
+
+$normal: 500;
+$bold: 700; 
+$bolder: 1000;
+
+$h1: $base * 2.5;
+$h2: $base * 2;
+$h3: $base * 1.75;
+$h4: $base * 1.5;
+$h5: $base * 1.25;
+$h6: $base;
+
+$mapaSizes:
+(
+    1: $h1,
+    2: $h2,
+    3: $h3,
+    4: $h4,
+    5: $h5,
+    6: $h6
+);
+
+$TiposDecoracion:
+(
+    "dotted",
+    "dashed",
+    "wavy",
+    "double",
+    "line-through"
+);
