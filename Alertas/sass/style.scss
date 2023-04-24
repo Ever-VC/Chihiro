@@ -1,126 +1,125 @@
-$coloresprueba:
-(
-    #c76862,
-    #87bba2,
-    #9d0129,
-    #b54d68,
-    #3c2f29,
-    #437155,
-    #8d83c3,
-    #dc8eb5
-);
+@use '../../variables.scss';
 
-$chihiro : #c76862;
-$haku : #87bba2;
-$zeniba :#9d0129;
-$lin : #b54d68;
-$yubaba : #3c2f29;
-$akio : #437155;
-$noface : #8d83c3;
-$blanco: #fff;
-$negro: #000;
+@font-face{
+    font-family: "Jumble"; 
+    src: url(https://use.typekit.net/af/05eeea/00000000000000007735a9eb/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+};
 
-
-.cuadros
-{
-    width: 100px;
-    height: 100px;
-    color:$blanco;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 3px;
-    border-radius: 10px;
-
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-direction:alternate;
-}
-
-.paleta
-{
-    padding: 5px;
-    margin: 40px;
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    height: 300px;
-}
-
-@for $iterador from 1 through 8
-{
-    .cuadros-#{$iterador}
-    {
-        background-color: nth($coloresprueba, $iterador);
-        animation-name: animacion#{$iterador};
-        $var: 5% * $iterador;
-
-        @keyframes animacion#{$iterador}
-        {
-            100%{
-                transform: translate($var)
-            }
-            
-        }
-
-        @if $iterador == 5 or $iterador == 6 or $iterador == 7 or $iterador == 8
-        {
-            animation-duration: 2s;
-            animation-iteration-count: infinite;
-            animation-direction: alternate-reverse;
-        }
-
+@mixin tablet {
+    @media screen and (max-width: 900px) {
+        font-size: 4.5vw;
     }
-}
-
+  }
+  
+  @mixin mobile {
+    @media screen and (max-width: 1400px) {
+        font-size: 3vw;
+    }
+  }
+  
+  @mixin skinny {
+    @media screen and (max-width: 500px) {
+        font-size: 4vw;
+    }
+  }
 
 @mixin alertas($color, $colortexto)
 {
-    @media screen and (max-width: 480px){
-        @content;
+    @media (max-width: 919px) 
+    {
+        -webkit-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        text-size-adjust: 100%;
     }
-    border: $color outset;
+    font-size: 1.7vw;
+    font-weight: 700;
+    font-family: variables.$font1;
+    font-style: normal;
+    border: 5px $color outset;
     color:$colortexto;
-    padding:8px 8px 8px 20px;
-    margin: 2px;
-    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
     background-color: $color;
-
 }
 
-.alert-chihiro
+//Alerta formal
+@mixin formal($color, $colortexto)
 {
-    @include alertas($chihiro, $blanco)
+    font-size: 1.7vw;
+    font-weight: 1000;
+    border-bottom: 6px $color solid;
+    color:$colortexto;
+    padding: 10px 10px 10px 30px;
+    background-color: $color;
+    font-family: variables.$font1;
 }
 
-.alert-haku
+//Alerta creativo
+@mixin creativo($color, $colortexto)
 {
-    @include alertas($haku, $blanco)
+    font-size: 1.7vw;
+    font-weight: 500;
+    color:$colortexto;
+    padding: 10px 10px 10px 30px;
+    margin: 5px;
+    background-color: $color;
+    font-family: variables.$font1;
+
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-left: 6px $color solid;
+    border-right: 6px $color solid;
 }
 
-.alert-zeniba
+//Alerta alerta
+@mixin policia
 {
-    @include alertas($zeniba, $blanco)
+    font-size: 1.7vw;
+    font-weight: 1000;
+    border: 5px variables.$negro;
+    border-style: dashed solid dashed;
+    text-transform: uppercase;
+    color: variables.$negro;
+    padding: 5px 5px 5px 5px;
+    margin: 5px;
+    background-color: variables.$amarillo;
+    text-align: center;
+    font-family: variables.$font1;
 }
 
-.alert-lin
+@mixin crearAlerta($name, $color)
 {
-    @include alertas($lin, $blanco)
+    $prueba: a0;
+    $varColor: $color+$prueba;
+
+
+  &-#{$name}
+  {
+    @include alertas($color, variables.$blanco);
+  }
+  &-#{$name}-formal
+  {
+      @include formal($varColor, variables.$blanco);
+  }
+
+  &-#{$name}-creative
+  {
+      @include creativo($varColor, variables.$blanco);
+  }
+
 }
 
-.alert-yubaba
+.alert
 {
-    @include alertas($yubaba, $blanco)
+  @each $name, $color in variables.$ColorsFondo
+  {
+      @include crearAlerta($name, $color);
+  }
 }
 
-.alert-akio
+.alert-police-tape
 {
-    @include alertas($akio, $blanco)
-}
+    @include policia;
+} 
 
-.alert-noface
-{
-    @include alertas($noface, $blanco)
-}

@@ -1,0 +1,348 @@
+@font-face {
+  font-family: "Jumble";
+  src: url(https://use.typekit.net/af/05eeea/00000000000000007735a9eb/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3);
+}
+.alert-chihiro {
+  font-size: 1.7vw;
+  font-weight: 700;
+  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  border: 5px #c76862 outset;
+  color: #fafaf8;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background-color: #c76862;
+}
+@media (max-width: 919px) {
+  .alert-chihiro {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.alert-chihiro-formal {
+  font-size: 1.7vw;
+  font-weight: 1000;
+  border-bottom: 6px #c76862a0 solid;
+  color: #fafaf8;
+  padding: 10px 10px 10px 30px;
+  background-color: #c76862a0;
+  font-family: "Bebas Neue", cursive;
+}
+.alert-chihiro-creative {
+  font-size: 1.7vw;
+  font-weight: 500;
+  color: #fafaf8;
+  padding: 10px 10px 10px 30px;
+  margin: 5px;
+  background-color: #c76862a0;
+  font-family: "Bebas Neue", cursive;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-left: 6px #c76862a0 solid;
+  border-right: 6px #c76862a0 solid;
+}
+.alert-haku {
+  font-size: 1.7vw;
+  font-weight: 700;
+  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  border: 5px #87bba2 outset;
+  color: #fafaf8;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background-color: #87bba2;
+}
+@media (max-width: 919px) {
+  .alert-haku {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.alert-haku-formal {
+  font-size: 1.7vw;
+  font-weight: 1000;
+  border-bottom: 6px #87bba2a0 solid;
+  color: #fafaf8;
+  padding: 10px 10px 10px 30px;
+  background-color: #87bba2a0;
+  font-family: "Bebas Neue", cursive;
+}
+.alert-haku-creative {
+  font-size: 1.7vw;
+  font-weight: 500;
+  color: #fafaf8;
+  padding: 10px 10px 10px 30px;
+  margin: 5px;
+  background-color: #87bba2a0;
+  font-family: "Bebas Neue", cursive;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-left: 6px #87bba2a0 solid;
+  border-right: 6px #87bba2a0 solid;
+}
+.alert-zeniba {
+  font-size: 1.7vw;
+  font-weight: 700;
+  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  border: 5px #9d0129 outset;
+  color: #fafaf8;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background-color: #9d0129;
+}
+@media (max-width: 919px) {
+  .alert-zeniba {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.alert-zeniba-formal {
+  font-size: 1.7vw;
+  font-weight: 1000;
+  border-bottom: 6px #9d0129a0 solid;
+  color: #fafaf8;
+  padding: 10px 10px 10px 30px;
+  background-color: #9d0129a0;
+  font-family: "Bebas Neue", cursive;
+}
+.alert-zeniba-creative {
+  font-size: 1.7vw;
+  font-weight: 500;
+  color: #fafaf8;
+  padding: 10px 10px 10px 30px;
+  margin: 5px;
+  background-color: #9d0129a0;
+  font-family: "Bebas Neue", cursive;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-left: 6px #9d0129a0 solid;
+  border-right: 6px #9d0129a0 solid;
+}
+.alert-lin {
+  font-size: 1.7vw;
+  font-weight: 700;
+  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  border: 5px #dc8eb5 outset;
+  color: #fafaf8;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background-color: #dc8eb5;
+}
+@media (max-width: 919px) {
+  .alert-lin {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.alert-lin-formal {
+  font-size: 1.7vw;
+  font-weight: 1000;
+  border-bottom: 6px #dc8eb5a0 solid;
+  color: #fafaf8;
+  padding: 10px 10px 10px 30px;
+  background-color: #dc8eb5a0;
+  font-family: "Bebas Neue", cursive;
+}
+.alert-lin-creative {
+  font-size: 1.7vw;
+  font-weight: 500;
+  color: #fafaf8;
+  padding: 10px 10px 10px 30px;
+  margin: 5px;
+  background-color: #dc8eb5a0;
+  font-family: "Bebas Neue", cursive;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-left: 6px #dc8eb5a0 solid;
+  border-right: 6px #dc8eb5a0 solid;
+}
+.alert-yubaba {
+  font-size: 1.7vw;
+  font-weight: 700;
+  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  border: 5px #271e17 outset;
+  color: #fafaf8;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background-color: #271e17;
+}
+@media (max-width: 919px) {
+  .alert-yubaba {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.alert-yubaba-formal {
+  font-size: 1.7vw;
+  font-weight: 1000;
+  border-bottom: 6px #271e17a0 solid;
+  color: #fafaf8;
+  padding: 10px 10px 10px 30px;
+  background-color: #271e17a0;
+  font-family: "Bebas Neue", cursive;
+}
+.alert-yubaba-creative {
+  font-size: 1.7vw;
+  font-weight: 500;
+  color: #fafaf8;
+  padding: 10px 10px 10px 30px;
+  margin: 5px;
+  background-color: #271e17a0;
+  font-family: "Bebas Neue", cursive;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-left: 6px #271e17a0 solid;
+  border-right: 6px #271e17a0 solid;
+}
+.alert-akio {
+  font-size: 1.7vw;
+  font-weight: 700;
+  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  border: 5px #437155 outset;
+  color: #fafaf8;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background-color: #437155;
+}
+@media (max-width: 919px) {
+  .alert-akio {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.alert-akio-formal {
+  font-size: 1.7vw;
+  font-weight: 1000;
+  border-bottom: 6px #437155a0 solid;
+  color: #fafaf8;
+  padding: 10px 10px 10px 30px;
+  background-color: #437155a0;
+  font-family: "Bebas Neue", cursive;
+}
+.alert-akio-creative {
+  font-size: 1.7vw;
+  font-weight: 500;
+  color: #fafaf8;
+  padding: 10px 10px 10px 30px;
+  margin: 5px;
+  background-color: #437155a0;
+  font-family: "Bebas Neue", cursive;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-left: 6px #437155a0 solid;
+  border-right: 6px #437155a0 solid;
+}
+.alert-noface {
+  font-size: 1.7vw;
+  font-weight: 700;
+  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  border: 5px #8d83c3 outset;
+  color: #fafaf8;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background-color: #8d83c3;
+}
+@media (max-width: 919px) {
+  .alert-noface {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.alert-noface-formal {
+  font-size: 1.7vw;
+  font-weight: 1000;
+  border-bottom: 6px #8d83c3a0 solid;
+  color: #fafaf8;
+  padding: 10px 10px 10px 30px;
+  background-color: #8d83c3a0;
+  font-family: "Bebas Neue", cursive;
+}
+.alert-noface-creative {
+  font-size: 1.7vw;
+  font-weight: 500;
+  color: #fafaf8;
+  padding: 10px 10px 10px 30px;
+  margin: 5px;
+  background-color: #8d83c3a0;
+  font-family: "Bebas Neue", cursive;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-left: 6px #8d83c3a0 solid;
+  border-right: 6px #8d83c3a0 solid;
+}
+.alert-susuwatari {
+  font-size: 1.7vw;
+  font-weight: 700;
+  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  border: 5px #b54d68 outset;
+  color: #fafaf8;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background-color: #b54d68;
+}
+@media (max-width: 919px) {
+  .alert-susuwatari {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.alert-susuwatari-formal {
+  font-size: 1.7vw;
+  font-weight: 1000;
+  border-bottom: 6px #b54d68a0 solid;
+  color: #fafaf8;
+  padding: 10px 10px 10px 30px;
+  background-color: #b54d68a0;
+  font-family: "Bebas Neue", cursive;
+}
+.alert-susuwatari-creative {
+  font-size: 1.7vw;
+  font-weight: 500;
+  color: #fafaf8;
+  padding: 10px 10px 10px 30px;
+  margin: 5px;
+  background-color: #b54d68a0;
+  font-family: "Bebas Neue", cursive;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-left: 6px #b54d68a0 solid;
+  border-right: 6px #b54d68a0 solid;
+}
+
+.alert-police-tape {
+  font-size: 1.7vw;
+  font-weight: 1000;
+  border: 5px #000;
+  border-style: dashed solid dashed;
+  text-transform: uppercase;
+  color: #000;
+  padding: 5px 5px 5px 5px;
+  margin: 5px;
+  background-color: #ffd200;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+/*# sourceMappingURL=style.css.map */

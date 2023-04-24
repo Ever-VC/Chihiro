@@ -1,0 +1,4144 @@
+.badge {
+  text-align: center;
+  border-radius: 5px;
+  background-color: #9d0129;
+  color: white;
+  padding: 4px 8px;
+}
+.badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.badge-bg-chihiro-chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.badge-bg-chihiro-haku {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.badge-bg-chihiro-zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.badge-bg-chihiro-lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.badge-bg-chihiro-yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.badge-bg-chihiro-akio {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.badge-bg-chihiro-noface {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.badge-bg-chihiro-noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.badge-bg-chihiro-white {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.badge-bg-haku-chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.badge-bg-haku-haku {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.badge-bg-haku-zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.badge-bg-haku-lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.badge-bg-haku-yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.badge-bg-haku-akio {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.badge-bg-haku-noface {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.badge-bg-haku-noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.badge-bg-haku-white {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.badge-bg-zeniba-chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.badge-bg-zeniba-haku {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.badge-bg-zeniba-zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.badge-bg-zeniba-lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.badge-bg-zeniba-yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.badge-bg-zeniba-akio {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.badge-bg-zeniba-noface {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.badge-bg-zeniba-noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.badge-bg-zeniba-white {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.badge-bg-lin--chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.badge-bg-lin--haku {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.badge-bg-lin--zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.badge-bg-lin--lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.badge-bg-lin--yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.badge-bg-lin--akio {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.badge-bg-lin--noface {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.badge-bg-lin--noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.badge-bg-lin--white {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.badge-bg-yubaba-chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.badge-bg-yubaba-haku {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.badge-bg-yubaba-zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.badge-bg-yubaba-lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.badge-bg-yubaba-yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.badge-bg-yubaba-akio {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.badge-bg-yubaba-noface {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.badge-bg-yubaba-noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.badge-bg-yubaba-white {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.badge-bg-akio-chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.badge-bg-akio-haku {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.badge-bg-akio-zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.badge-bg-akio-lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.badge-bg-akio-yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.badge-bg-akio-akio {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.badge-bg-akio-noface {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.badge-bg-akio-noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.badge-bg-akio-white {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noface-chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noface-haku {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noface-zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noface-lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noface-yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noface-akio {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noface-noface {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noface-noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noface-white {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noseaun-chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noseaun-haku {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noseaun-zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noseaun-lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noseaun-yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noseaun-akio {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noseaun-noface {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noseaun-noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.badge-bg-noseaun-white {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.badge-bg-white-chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.badge-bg-white-haku {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.badge-bg-white-zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.badge-bg-white-lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.badge-bg-white-yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.badge-bg-white-akio {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.badge-bg-white-noface {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.badge-bg-white-noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.badge-bg-white-white {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.badge-hov-bg-chihiro:hover {
+  border: none;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-chihiro-chihiro:hover {
+  border: none;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #c76862;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-chihiro:hover {
+  border: none;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-chihiro-haku:hover {
+  border: none;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-chihiro:hover {
+  border: none;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-chihiro-zeniba:hover {
+  border: none;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-chihiro:hover {
+  border: none;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-chihiro-lin-:hover {
+  border: none;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-chihiro:hover {
+  border: none;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-chihiro-yubaba:hover {
+  border: none;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-chihiro:hover {
+  border: none;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-chihiro-akio:hover {
+  border: none;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #437155;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-chihiro:hover {
+  border: none;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-chihiro-noface:hover {
+  border: none;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-chihiro:hover {
+  border: none;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-chihiro-noseaun:hover {
+  border: none;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-chihiro:hover {
+  border: none;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-chihiro-white:hover {
+  border: none;
+  background-color: #c76862;
+  font-weight: bold;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-haku:hover {
+  border: none;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-haku-chihiro:hover {
+  border: none;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #c76862;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-haku:hover {
+  border: none;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-haku-haku:hover {
+  border: none;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-haku:hover {
+  border: none;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-haku-zeniba:hover {
+  border: none;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-haku:hover {
+  border: none;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-haku-lin-:hover {
+  border: none;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-haku:hover {
+  border: none;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-haku-yubaba:hover {
+  border: none;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-haku:hover {
+  border: none;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-haku-akio:hover {
+  border: none;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #437155;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-haku:hover {
+  border: none;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-haku-noface:hover {
+  border: none;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-haku:hover {
+  border: none;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-haku-noseaun:hover {
+  border: none;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-haku:hover {
+  border: none;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-haku-white:hover {
+  border: none;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-zeniba:hover {
+  border: none;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-zeniba-chihiro:hover {
+  border: none;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #c76862;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-zeniba:hover {
+  border: none;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-zeniba-haku:hover {
+  border: none;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-zeniba:hover {
+  border: none;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-zeniba-zeniba:hover {
+  border: none;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-zeniba:hover {
+  border: none;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-zeniba-lin-:hover {
+  border: none;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-zeniba:hover {
+  border: none;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-zeniba-yubaba:hover {
+  border: none;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-zeniba:hover {
+  border: none;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-zeniba-akio:hover {
+  border: none;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #437155;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-zeniba:hover {
+  border: none;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-zeniba-noface:hover {
+  border: none;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-zeniba:hover {
+  border: none;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-zeniba-noseaun:hover {
+  border: none;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-zeniba:hover {
+  border: none;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-zeniba-white:hover {
+  border: none;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-lin-:hover {
+  border: none;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-lin--chihiro:hover {
+  border: none;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #c76862;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-lin-:hover {
+  border: none;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-lin--haku:hover {
+  border: none;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-lin-:hover {
+  border: none;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-lin--zeniba:hover {
+  border: none;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-lin-:hover {
+  border: none;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-lin--lin-:hover {
+  border: none;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-lin-:hover {
+  border: none;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-lin--yubaba:hover {
+  border: none;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-lin-:hover {
+  border: none;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-lin--akio:hover {
+  border: none;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #437155;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-lin-:hover {
+  border: none;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-lin--noface:hover {
+  border: none;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-lin-:hover {
+  border: none;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-lin--noseaun:hover {
+  border: none;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-lin-:hover {
+  border: none;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-lin--white:hover {
+  border: none;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-yubaba:hover {
+  border: none;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-yubaba-chihiro:hover {
+  border: none;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #c76862;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-yubaba:hover {
+  border: none;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-yubaba-haku:hover {
+  border: none;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-yubaba:hover {
+  border: none;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-yubaba-zeniba:hover {
+  border: none;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-yubaba:hover {
+  border: none;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-yubaba-lin-:hover {
+  border: none;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-yubaba:hover {
+  border: none;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-yubaba-yubaba:hover {
+  border: none;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-yubaba:hover {
+  border: none;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-yubaba-akio:hover {
+  border: none;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #437155;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-yubaba:hover {
+  border: none;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-yubaba-noface:hover {
+  border: none;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-yubaba:hover {
+  border: none;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-yubaba-noseaun:hover {
+  border: none;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-yubaba:hover {
+  border: none;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-yubaba-white:hover {
+  border: none;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-akio:hover {
+  border: none;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-akio-chihiro:hover {
+  border: none;
+  background-color: #437155;
+  font-weight: bold;
+  color: #c76862;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-akio:hover {
+  border: none;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-akio-haku:hover {
+  border: none;
+  background-color: #437155;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-akio:hover {
+  border: none;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-akio-zeniba:hover {
+  border: none;
+  background-color: #437155;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-akio:hover {
+  border: none;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-akio-lin-:hover {
+  border: none;
+  background-color: #437155;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-akio:hover {
+  border: none;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-akio-yubaba:hover {
+  border: none;
+  background-color: #437155;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-akio:hover {
+  border: none;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-akio-akio:hover {
+  border: none;
+  background-color: #437155;
+  font-weight: bold;
+  color: #437155;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-akio:hover {
+  border: none;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-akio-noface:hover {
+  border: none;
+  background-color: #437155;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-akio:hover {
+  border: none;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-akio-noseaun:hover {
+  border: none;
+  background-color: #437155;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-akio:hover {
+  border: none;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-akio-white:hover {
+  border: none;
+  background-color: #437155;
+  font-weight: bold;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noface:hover {
+  border: none;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noface-chihiro:hover {
+  border: none;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #c76862;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noface:hover {
+  border: none;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noface-haku:hover {
+  border: none;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noface:hover {
+  border: none;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noface-zeniba:hover {
+  border: none;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noface:hover {
+  border: none;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noface-lin-:hover {
+  border: none;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noface:hover {
+  border: none;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noface-yubaba:hover {
+  border: none;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noface:hover {
+  border: none;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noface-akio:hover {
+  border: none;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #437155;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noface:hover {
+  border: none;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noface-noface:hover {
+  border: none;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noface:hover {
+  border: none;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noface-noseaun:hover {
+  border: none;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noface:hover {
+  border: none;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noface-white:hover {
+  border: none;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noseaun:hover {
+  border: none;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noseaun-chihiro:hover {
+  border: none;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #c76862;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noseaun:hover {
+  border: none;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noseaun-haku:hover {
+  border: none;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noseaun:hover {
+  border: none;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noseaun-zeniba:hover {
+  border: none;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noseaun:hover {
+  border: none;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noseaun-lin-:hover {
+  border: none;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noseaun:hover {
+  border: none;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noseaun-yubaba:hover {
+  border: none;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noseaun:hover {
+  border: none;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noseaun-akio:hover {
+  border: none;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #437155;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noseaun:hover {
+  border: none;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noseaun-noface:hover {
+  border: none;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noseaun:hover {
+  border: none;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noseaun-noseaun:hover {
+  border: none;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-noseaun:hover {
+  border: none;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-noseaun-white:hover {
+  border: none;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-white:hover {
+  border: none;
+  background-color: white;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-white-chihiro:hover {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  color: #c76862;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-white:hover {
+  border: none;
+  background-color: white;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-white-haku:hover {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-white:hover {
+  border: none;
+  background-color: white;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-white-zeniba:hover {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-white:hover {
+  border: none;
+  background-color: white;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-white-lin-:hover {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-white:hover {
+  border: none;
+  background-color: white;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-white-yubaba:hover {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-white:hover {
+  border: none;
+  background-color: white;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-white-akio:hover {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  color: #437155;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-white:hover {
+  border: none;
+  background-color: white;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-white-noface:hover {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-white:hover {
+  border: none;
+  background-color: white;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-white-noseaun:hover {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 2px 4px;
+  text-align: center;
+}
+.badge-hov-bg-white:hover {
+  border: none;
+  background-color: white;
+  color: white;
+  text-align: center;
+  padding: 2px 4px;
+}
+.badge-hov-bg-white-white:hover {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+}
+
+.btn-badge {
+  text-align: center;
+}
+.btn-badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-chihiro-chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-chihiro-haku {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-chihiro-zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-chihiro-lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-chihiro-yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-chihiro-akio {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-chihiro-noface {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-chihiro-noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-chihiro {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #c76862;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-chihiro-white {
+  border: none;
+  border-radius: 5px;
+  background-color: #c76862;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-haku-chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-haku-haku {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-haku-zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-haku-lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-haku-yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-haku-akio {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-haku-noface {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-haku-noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-haku {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #87bba2;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-haku-white {
+  border: none;
+  border-radius: 5px;
+  background-color: #87bba2;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-zeniba-chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-zeniba-haku {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-zeniba-zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-zeniba-lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-zeniba-yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-zeniba-akio {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-zeniba-noface {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-zeniba-noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-zeniba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #9d0129;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-zeniba-white {
+  border: none;
+  border-radius: 5px;
+  background-color: #9d0129;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-lin--chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-lin--haku {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-lin--zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-lin--lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-lin--yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-lin--akio {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-lin--noface {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-lin--noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-lin- {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #b54d68;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-lin--white {
+  border: none;
+  border-radius: 5px;
+  background-color: #b54d68;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-yubaba-chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-yubaba-haku {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-yubaba-zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-yubaba-lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-yubaba-yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-yubaba-akio {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-yubaba-noface {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-yubaba-noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-yubaba {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #3c2f29;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-yubaba-white {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c2f29;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-akio-chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-akio-haku {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-akio-zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-akio-lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-akio-yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-akio-akio {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-akio-noface {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-akio-noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-akio {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #437155;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-akio-white {
+  border: none;
+  border-radius: 5px;
+  background-color: #437155;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noface-chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noface-haku {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noface-zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noface-lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noface-yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noface-akio {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noface-noface {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noface-noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noface {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #8d83c3;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noface-white {
+  border: none;
+  border-radius: 5px;
+  background-color: #8d83c3;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noseaun-chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noseaun-haku {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noseaun-zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noseaun-lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noseaun-yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noseaun-akio {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noseaun-noface {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noseaun-noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-noseaun {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: #dc8eb5;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-noseaun-white {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc8eb5;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-white-chihiro {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: #c76862;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-white-haku {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: #87bba2;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-white-zeniba {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: #9d0129;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-white-lin- {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: #b54d68;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-white-yubaba {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: #3c2f29;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-white-akio {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: #437155;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-white-noface {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: #8d83c3;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-white-noseaun {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: #dc8eb5;
+  padding: 4px 8px;
+  text-align: center;
+}
+.btn-badge-bg-white {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 8px;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.btn-badge-bg-white-white {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=badges.css.map */

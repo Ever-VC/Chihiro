@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chihiro's Library • Sombras</title>
+    <link rel="stylesheet" href="../reset.css">
+    <!-- Iconos Virtuales -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"/>
+    <!-- Icon-->
+    <link rel="icon" href="img/kuro02.svg">
+    <!-- Librerias -->
+    <link rel="stylesheet" href="../Alertas/css/style.css">
+    <link rel="stylesheet" href="../badges/css/badges.css">
+    <link rel="stylesheet" href="../hide-elements/css/hide.css">
+    <link rel="stylesheet" href="../margin-padding-border/css/margin-padding-border.css">
+    <link rel="stylesheet" href="../move-elements/css/position.css">
+    <link rel="stylesheet" href="../Botones/css/style.css">
+    <link rel="stylesheet" href="../EdicionDeTexto/css/style.css">
+    <link rel="stylesheet" href="../RedondearElementos/css/style.css">
+    <link rel="stylesheet" href="../Contenedores/css/contenedores.css">
+    <link rel="stylesheet" href="../ColoresDeFondo/css/style.css">
+    <link rel="stylesheet" href="../BarraDeNavegacion/css/style.css">
+    <link rel="stylesheet" href="../Tarjetas/css/style.css">
+    <link rel="stylesheet" href="../shadow/css/shadow.css">
+    <link rel="stylesheet" href="../Formularios/css/style.css">
+    <!-- CSS SITIO WEB -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <!-- Barra de navegacion -->
+    <div class="bg-color-transparente">
+      <nav class="navbar">
+        <div onclick="location.href='./documentacion.html'" class="navbar_logo title font-color-yubaba"><img src="../img/kuro02.svg" alt="" height="75px" width="80px">Chihiro</div>
+        <div class="navbar_bars" ><i class="fas fa-bars"></i></div>
+        <ul class="navbar_menu">
+          <button class="btn-colored-akio text-size-h hov" onclick="location.href='./index.html'">Inicio</button>
+          <li><a href="https://github.com/EverVC/Chihiro.git"><div class="btn btn-icon-akio"><i class="fab fa-github fa-3x"></i></div></a></li>
+          <li><a href=""><div class="btn btn-icon-akio"><i class="fas fa-user-circle fa-3x"></i></div></a></li>
+          <li><a href="https://www.netflix.com/sv-en/title/60023642"><div class="btn btn-icon-akio"><i class="fas fa-compact-disc fa-3x"></i></div></a></li>
+      </ul>
+      </nav>
+  </div>
+
+    <!-- CONTENIDO GRID -->
+    <div class="m grid"> 
+        <!-- Columna 1 -->
+        <div class="grid-nav font-color-yubaba">
+          <p class="m"><span class="text-size-h4 hov m fweight-bolder ">CONTENIDO:</span></p><br>
+          <p onclick="location.href='./botones.html'"><span class="font-hover-akio hov m">Botones</span></p><br>
+          <p onclick="location.href='./formularios.html'"><span class="font-hover-akio hov m">Formularios</span></p><br>
+          <p onclick="location.href='./tarjetas.html'"><span class="font-hover-akio hov m">Tarjetas</span></p><br>
+          <p onclick="location.href='./alertas.html'"><span class="font-hover-akio hov m">Alertas</span></p><br>
+          <p onclick="location.href='./navbar.html'"><span class="font-hover-akio hov m">Barras de navegación</span></p><br>
+          <p onclick="location.href='./badges.html'"><span class="font-hover-akio hov m">Badges</span></p><br>
+          <p onclick="location.href='./contenedores.html'"><span class="font-hover-akio hov m">Contenedores</span></p><br>
+          <p onclick="location.href='./edicionTexto.html'"><span class="font-hover-akio hov m">Tamaño, grosor, color y tipo de letra</span></p><br>
+          <p onclick="location.href='./sombras.html'"><span class="font-hover-akio hov m">Sombras</span></p><br>
+          <p onclick="location.href='./margen_padding_borde.html'"><span class="font-hover-akio hov m">Márgenes, paddings y bordes</span></p><br>
+          <p onclick="location.href='./mover_elementos.html'"><span class="font-hover-akio hov m">Mover elementos</span></p><br>
+          <p onclick="location.href='./redondear.html'"><span class="font-hover-akio hov m">Redondear elementos</span></p><br>
+          <p onclick="location.href='./ocultar_elementos.html'"><span class="font-hover-akio hov m">Ocultar elementos</span></p><br>
+          <p onclick="location.href='./coloresFondo.html'" class="m-bottom"><span class="font-hover-akio hov m">Color de fondo</span></p>
+      </div>
+
+        <!-- Columna 2 -->
+        <div class="grid-content font-color-yubaba">
+			<h1 class="title h1-doc text-uppercase text-center font-color-akio">Mover Elementos en pantalla</h1>
+			<div class="m-left-2 text-size-h4 font-spacing">
+				<h1 id="Mover_elementos" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Position:</h1>
+				<hr class="font-color-akio">
+				<p class="m-top ">
+					La propiedad <span class="font-color-haku fweight-bold">position</span> especifica como un elemento es
+					posicionado en el documento. Las propiedades <span class="font-color-noface fweight-bold">top</span>, <span class="font-color-noface fweight-bold">right</span>,
+					<span class="font-color-noface fweight-bold">bottom</span> y <span class="font-color-noface fweight-bold">left</span> determinan
+					la ubicación final de los elementos. <br><br>
+					Para hacer poder posicionar los elementos deberá llamar a la clase <span class="font-color-haku fweight-bold">position</span> y luego de eso
+					indicar la posicion en que desea colocar su elemento. Es importante mencionar que antes de eso deberá indicar que su contenedor externo tendrá
+					una posicion <span class="font-color-noface fweight-bold">relative</span>, para tomar ese contenedor como referencia; de no ser así, el elemento 
+					que intente posicionar, tomará como referencia el <span class="font-color-noface fweight-bold">body</span> de su página web.
+				</p>
+				<h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_GREEN_V3.svg" alt="" height="20px" width="30px">Ejemplo de posición relativa: </h1>
+                <br>
+                <pre class="prettyprint subtitle">
+<br>
+    &lt;div class="position-relative"&gt;Esta es una caja con posición relativa.&lt;/div&gt;
+
+                </pre>
+				<br>
+				<p class="m-top ">
+					A continuación se muestran varios ejemplos de uso para asignar posicion a elementos:
+				</p>
+				<h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_PINK_V3.svg" alt="" height="20px" width="30px">Ejemplos de posicionar elementos: </h1>
+                <br>
+                <pre class="prettyprint subtitle">
+
+  &lt;div class="position-relative"&gt;
+	&lt;div class="position-left-top"&gt;Esta es una caja con posición superior izquierda.&lt;/div&gt;
+	&lt;div class="position-top"&gt;Esta es una caja con posición superior.&lt;/div&gt;
+	&lt;div class="position-right-top"&gt;Esta es una caja con posición superior derecha.&lt;/div&gt;
+	&lt;div class="position-center"&gt;Esta es una caja con posición centrada.&lt;/div&gt;
+	&lt;div class="position-left-bottom"&gt;Esta es una caja con posición inferior izquierda.&lt;/div&gt;
+	&lt;div class="position-bottom"&gt;Esta es una caja con posición inferior.&lt;/div&gt;
+	&lt;div class="position-right-bottom"&gt;Esta es una caja con posición inferior derech.&lt;/div&gt;
+  &lt;/div&gt;
+                </pre>
+				<h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_YELLOW_V3.svg" alt="" height="20px" width="30px">Resultados: </h1>
+                <div style="width: auto; height: 250px; display: flex;" class="bg-color-haku rounded-10 font-color-blanco text-center position-relative">
+					<div style="width: 70px; height: 70px;" class="position-left-top bg-color-chihiro m rounded-10 p-top">A</div>
+					<div style="width: 70px; height: 70px;" class="position-top bg-color-chihiro m rounded-10 p-top">B</div>
+					<div style="width: 70px; height: 70px;" class="position-right-top bg-color-chihiro m rounded-10 p-top">C</div>
+					<div style="width: 70px; height: 70px;" class="position-center bg-color-chihiro m rounded-10 p-top">D</div>
+					<div style="width: 70px; height: 70px;" class="position-left-bottom bg-color-chihiro m rounded-10 p-top">E</div>
+					<div style="width: 70px; height: 70px;" class="position-bottom bg-color-chihiro m rounded-10 p-top">F</div>
+					<div style="width: 70px; height: 70px;" class="position-right-bottom bg-color-chihiro m rounded-10 p-top">G</div>
+				</div>
+          	</div>
+        </div>
+
+        <!-- Columna 3 -->
+        <div class="grid-pulubli">
+          <br><br><br>
+          <h1 class="subtitle font-spacing font-color-yubaba">Tabla de contenidos</h1>
+          <ul>
+              <li class="m-2"><a class=" text-deco-none font-hover-akio subtitle font-color-yubaba"  href="#Mover_elementos">Position</a></li>
+          </ul>
+      
+        </div>
+
+    </div>
+    
+    <br><br><br>
+    <br><br><br>
+    <!-- Pie de pagina -->
+    <div class="footer bg-color-noface"> 
+      <div class="footer_container">
+
+        <div class="footer_container_col">
+          <h1 class="title text-size-h1 text-uppercase">Home</h1>
+          <p>¿Cómo utilizar?</p>
+          <ul>
+            <li><a href="./documentacion.html">Instalación</a></li>
+            <li><a href="./documentacion.html">Documentación</a></li>
+            <li><a href="">Donar, que bendicion</a></li>
+          </ul>
+        </div>
+
+        
+        <div class="footer_container_col">
+          <h1 class="title text-size-h1 text-uppercase">GRUPO</h1>
+          <p>¿Quiénes somos?</p>
+          <ul>
+            <li><a href="https://github.com/BeatrizzJimenezz">Beatriz Jiménez</a></li>
+            <li><a href="https://github.com/EverVC">Ever Vásquez</a></li>
+            <li><a href="">Rebeca Castro</a></li>
+          </ul>
+        </div>
+
+        
+        <div class="footer_container_col">
+          <h1 class="title text-size-h1 text-uppercase">Inspiración</h1>
+          <p>Pelicula</p>
+          <ul>
+            <li><a href="https://ghibli-park.jp/en/">Studio Ghibli Park</a></li>
+            <li><a href="https://www.ghibli-museum-shop.jp/contents/news/20230421/">Ghibli Museum</a></li>
+            <li><a href="https://www.ghibli.jp/works/chihiro/#frame">Galeria</a></li>
+          </ul>
+        </div>
+
+        
+        <div class="footer_container_col">
+          <h1 class="title text-size-h1 text-uppercase ">Asignación</h1>
+          <p>HDP155</p>
+          <ul>
+            <li><a href="https://docs.google.com/document/d/157iQ6ldo7Y0N43R4LEDk_DwQ4_2aM-j4/edit">Indicaciones</a></li>
+            <li><a href="https://www.ues.edu.sv/">Universidad</a></li>
+            <li><br></li>
+          </ul>
+        </div>
+</div>
+    </div>
+
+    <div class="container-xxl bg-color-yubaba">
+        <br>
+        <p class="text-size-h2 title text-center font-color-blanco">¡Gracias por ver!</p>
+        <br>
+    </div>
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>

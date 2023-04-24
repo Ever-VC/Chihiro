@@ -1,0 +1,64 @@
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.position-left {
+  position: absolute;
+  left: 0;
+  margin: auto;
+}
+.position-left-top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: auto;
+}
+.position-left-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+.position-right {
+  position: absolute;
+  right: 0;
+  margin: auto;
+}
+.position-right-top {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: auto;
+}
+.position-right-bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.position-center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.position-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.position-bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/*# sourceMappingURL=position.css.map */

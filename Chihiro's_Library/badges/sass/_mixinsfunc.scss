@@ -1,0 +1,38 @@
+@mixin badge($name, $bg-color, $tn-color, $text-color) {
+    &-bg-#{$name} {
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 4px 8px;
+        background-color: #{$bg-color};
+        color: white;
+        text-align: center;
+        &-#{$tn-color} {
+            border: none;
+            border-radius: 5px;
+            background-color: #{$bg-color};
+            font-weight: bold;
+            color: #{$text-color};
+            padding: 4px 8px;
+            text-align: center;
+        }
+    }
+}
+
+@mixin badge-hov($name, $bg-color, $tn-color, $text-color) {
+    &-bg-#{$name}:hover {
+        border: none;
+        background-color: #{$bg-color};
+        color: white;
+        text-align: center;
+        padding: 2px 4px;
+    }
+    &-bg-#{$name}-#{$tn-color}:hover {
+        border: none;
+        background-color: #{$bg-color};
+        font-weight: bold;
+        color: #{$text-color};
+        padding: 2px 4px;
+        text-align: center;
+    }
+}

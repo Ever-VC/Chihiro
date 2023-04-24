@@ -1,0 +1,294 @@
+@use '../../variables.scss';
+
+@mixin min($bp, $max: "null", $device: "screen")
+{
+    @if $max == "null" {
+      @media only #{$device} and (min-width: #{$bp}) {
+        @content;
+      }
+    } @else {
+      @media only #{$device} and (min-width: #{$bp}) and (max-width: #{$max}) {
+        @content;
+      }
+    }
+}
+  
+@function bp($bp) 
+{
+  @return map-get(variables.$breakpoints, $bp);
+}
+  
+@function container($container-size, $true-val: false) 
+{
+    @return map-get(variables.$container-sizes, $container-size);
+}
+  
+
+
+.container 
+{
+  &:not(.is-fluid) 
+  {
+    margin: 0 auto;
+  
+    @each $bp, $container-size in variables.$container-sizes
+    {
+      @include min(#{bp(#{$bp})}) 
+      {
+        width: 100%;
+        max-width: container(#{$bp});
+      }
+    }
+  }
+
+}
+  
+@each $bp, $container-size in variables.$container-sizes 
+{
+    .container-#{$bp} 
+    {
+
+      //margin: 0.1rem auto;
+      width: 100%;
+  
+      $i: index(variables.$container-sizes, $bp $container-size);
+  
+      @for $j from $i through length(variables.$container-sizes) 
+      {
+        @include min(#{bp(nth(nth(variables.$container-sizes, $j), 1))}) 
+        {
+          max-width: container(#{nth(nth(variables.$container-sizes, $j), 1)});
+        }
+      }
+    }
+}
+
+
+
+//HEATHER Y FOOTER PAGINA PRINCIPAL 
+@mixin tablet {
+  @media screen and (max-width: 700px) {
+    @content;
+  }
+}
+@mixin tablet-footer {
+  @media screen and (max-width: 1000px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: 700px) {
+    @content;
+  }
+}
+
+@mixin skinny {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+
+//HEATHER
+.header 
+{
+  &_container 
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    height: 90vh;
+    z-index: 1;
+    max-width: 1200px;
+    padding-right: 24px;
+    padding-left: 24px;
+
+    @include tablet 
+    {
+      grid-template-columns: 1fr;
+      height: 100%;
+    }
+    @include mobile
+    {
+      grid-template-columns: 0.6fr;
+      height: 100%;
+    }
+    @include skinny
+    {
+      grid-template-columns: 1fr;
+      height: 100%;
+    }
+
+    &_izq 
+    {
+      width: 100%;
+      line-height: 1.5;
+      padding: 0 0 15rem 0;
+
+      @include mobile 
+      {
+        line-height: 1.3;
+      }
+    }
+
+    &_izq h1 
+    {
+      font-size: 1.8rem;
+      padding: 0 0 0 0;
+      color: variables.$yubaba;
+
+      @include mobile
+      {
+        font-size: 1.5rem;
+        padding: 1rem;
+      }
+      @include tablet
+      {
+        font-size: 1.8rem;
+      }
+      @include skinny
+      {
+        visibility:collapse;
+        display: none;
+      }
+    }
+
+    &_izq p {
+      font-size: 1.7rem;
+      color: variables.$yubaba;
+      margin-bottom: 1rem;
+
+      @include mobile 
+      {
+        font-size: 1.5rem;
+      }
+      @include skinny
+      {
+        padding: 5rem 1rem 0 1rem;
+        font-family: variables.$font2;
+        font-size: 2.5rem;
+      }
+    }
+
+    &_der {
+      text-align: center;
+    }
+
+  }
+}
+
+
+//FOOTER
+.footer 
+{
+
+  &_container 
+  {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    height: 45vh;
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    @include tablet-footer()
+    {
+      grid-template-columns: 1fr 1fr;
+      height: 100%;
+    }
+    @include mobile()
+    {
+      grid-template-columns: 0.6fr 0.6fr;
+      height: 100%;
+    }
+    @include skinny
+    {
+      grid-template-columns: 1fr;
+      height: 100%;
+    }
+
+    &_col h1, p, a
+    {
+      @include mobile()
+      {
+        font-size: 1rem;
+      }
+    } 
+
+    &_col h1 
+    {
+      text-align: center;
+      font-size: 2rem;
+      margin: 0 0 35px 0;
+      color: variables.$yubaba;
+      @include mobile
+      {
+        margin-bottom: 1rem;
+      }
+      @include skinny
+      {
+        margin: 0;
+      }
+      @include tablet-footer
+      {
+        margin: 35px 0 0 0;
+      }
+    }
+
+    &_col p 
+    {
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 700;
+      font-style: italic;
+      letter-spacing: 0.07em;
+      margin: 0 0 50px 0;
+      color:  #fafaf8;
+      @include mobile()
+      {
+        visibility:collapse;
+        display: none;
+      }
+      @include tablet-footer()
+      {
+        margin: 5px;
+      }
+    }
+
+    &_col li 
+    {
+      text-align: center;
+      margin-bottom:20px;
+      font-size: 1.5rem;
+      @include tablet-footer
+      {
+        margin-bottom: 5px;
+      }
+    }
+
+    &_col a
+    {
+      font-weight: 700;
+      font-family: variables.$font1;
+      text-decoration: none;
+      color:  variables.$yubaba;
+      opacity: 0.7;
+      &:hover
+      {
+        color: variables.$yubaba;
+        opacity: 1;
+      }
+      @include tablet-footer
+      {
+        margin: 5px;
+      }
+    }
+
+  }
+}

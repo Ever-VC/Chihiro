@@ -1,0 +1,54 @@
+@use '../../variables.scss';
+
+@mixin background-gradient($name, $gradient)
+{
+  &-#{$name}{
+      background: $gradient;
+  }
+}
+
+.bg-gradient 
+{
+  @each $name, $gradient in variables.$gradients
+  {
+      @include background-gradient($name, $gradient);
+  }
+}
+
+@mixin background-color($name, $color)
+{
+  &-#{$name}{
+      background-color: $color;
+  }
+
+}
+
+.bg-color{
+  @each $name, $color in variables.$ColorsFondo
+  {
+      @include background-color($name, $color);
+  }
+}
+
+.bg-color-transparente
+{
+  background-color: transparent;
+}
+
+@mixin degradado($name, $var)
+{
+    opacity: $var;
+}
+
+
+
+
+  @for $iterador from 1 through 4
+  {
+    $var: nth(variables.$tiposOpacidad, $iterador);
+    $name: nth(variables.$Opacidad, $iterador);
+      .bg-opacity-#{$name}
+      {
+          @include degradado($name,$var)
+      }
+  }

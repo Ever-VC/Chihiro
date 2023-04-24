@@ -1,0 +1,2640 @@
+.box-shadow-1 {
+  box-shadow: 3px 3px 8px #437155, -3px -3px 8px #8d83c3;
+}
+
+.box-shadow-animated {
+  position: relative;
+}
+.box-shadow-animated::before {
+  content: " ";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background: linear-gradient(45deg, #9d0129, #8d83c3, #87bba2, #c76862, #dc8eb5, #9d0129, #8d83c3, #87bba2, #c76862, #dc8eb5);
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: animate 20s linear infinite;
+  filter: blur(5px);
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 300% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.box-shadow-2 {
+  position: relative;
+}
+.box-shadow-2::before {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  bottom: 15px;
+  left: 8px;
+  top: 80%;
+  width: 50%;
+  background: transparent;
+  -webkit-box-shadow: 0 18px 15px #486685;
+  -moz-box-shadow: 0 18px 15px #486685;
+  box-shadow: 0 18px 15px #486685;
+  -webkit-transform: rotate(-4deg);
+  -moz-transform: rotate(-4deg);
+  -o-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+  transform: rotate(-4deg);
+}
+.box-shadow-2::after {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  bottom: 15px;
+  right: 8px;
+  top: 80%;
+  width: 50%;
+  background: transparent;
+  -webkit-box-shadow: 0 18px 15px #8d83c3;
+  -moz-box-shadow: 0 18px 15px #8d83c3;
+  box-shadow: 0 18px 15px #8d83c3;
+  -webkit-transform: rotate(4deg);
+  -moz-transform: rotate(4deg);
+  -o-transform: rotate(4deg);
+  -ms-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-chihiro {
+  text-shadow: 0 0 5px #c76862;
+}
+.text-shadow-top {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-chihiro {
+  text-shadow: 0 -3px 5px #c76862;
+}
+.text-shadow-top-left {
+  text-shadow: -3px -3px 5px #3c2f29;
+}
+.text-shadow-top-left-chihiro {
+  text-shadow: -3px -3px 5px #c76862;
+}
+.text-shadow-left {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow-left-chihiro {
+  text-shadow: -3px 0 5px #c76862;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-haku {
+  text-shadow: 0 0 5px #87bba2;
+}
+.text-shadow-top {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-haku {
+  text-shadow: 0 -3px 5px #87bba2;
+}
+.text-shadow-top-left {
+  text-shadow: -3px -3px 5px #3c2f29;
+}
+.text-shadow-top-left-haku {
+  text-shadow: -3px -3px 5px #87bba2;
+}
+.text-shadow-left {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow-left-haku {
+  text-shadow: -3px 0 5px #87bba2;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-zeniba {
+  text-shadow: 0 0 5px #9d0129;
+}
+.text-shadow-top {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-zeniba {
+  text-shadow: 0 -3px 5px #9d0129;
+}
+.text-shadow-top-left {
+  text-shadow: -3px -3px 5px #3c2f29;
+}
+.text-shadow-top-left-zeniba {
+  text-shadow: -3px -3px 5px #9d0129;
+}
+.text-shadow-left {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow-left-zeniba {
+  text-shadow: -3px 0 5px #9d0129;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-lin {
+  text-shadow: 0 0 5px #b54d68;
+}
+.text-shadow-top {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-lin {
+  text-shadow: 0 -3px 5px #b54d68;
+}
+.text-shadow-top-left {
+  text-shadow: -3px -3px 5px #3c2f29;
+}
+.text-shadow-top-left-lin {
+  text-shadow: -3px -3px 5px #b54d68;
+}
+.text-shadow-left {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow-left-lin {
+  text-shadow: -3px 0 5px #b54d68;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-yubaba {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-top {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-yubaba {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-left {
+  text-shadow: -3px -3px 5px #3c2f29;
+}
+.text-shadow-top-left-yubaba {
+  text-shadow: -3px -3px 5px #3c2f29;
+}
+.text-shadow-left {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow-left-yubaba {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-akio {
+  text-shadow: 0 0 5px #437155;
+}
+.text-shadow-top {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-akio {
+  text-shadow: 0 -3px 5px #437155;
+}
+.text-shadow-top-left {
+  text-shadow: -3px -3px 5px #3c2f29;
+}
+.text-shadow-top-left-akio {
+  text-shadow: -3px -3px 5px #437155;
+}
+.text-shadow-left {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow-left-akio {
+  text-shadow: -3px 0 5px #437155;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-noface {
+  text-shadow: 0 0 5px #8d83c3;
+}
+.text-shadow-top {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-noface {
+  text-shadow: 0 -3px 5px #8d83c3;
+}
+.text-shadow-top-left {
+  text-shadow: -3px -3px 5px #3c2f29;
+}
+.text-shadow-top-left-noface {
+  text-shadow: -3px -3px 5px #8d83c3;
+}
+.text-shadow-left {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow-left-noface {
+  text-shadow: -3px 0 5px #8d83c3;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-noseaun {
+  text-shadow: 0 0 5px #dc8eb5;
+}
+.text-shadow-top {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-noseaun {
+  text-shadow: 0 -3px 5px #dc8eb5;
+}
+.text-shadow-top-left {
+  text-shadow: -3px -3px 5px #3c2f29;
+}
+.text-shadow-top-left-noseaun {
+  text-shadow: -3px -3px 5px #dc8eb5;
+}
+.text-shadow-left {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow-left-noseaun {
+  text-shadow: -3px 0 5px #dc8eb5;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-chihiro {
+  text-shadow: 0 0 5px #c76862;
+}
+.text-shadow-top {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-chihiro {
+  text-shadow: 0 -3px 5px #c76862;
+}
+.text-shadow-top-right {
+  text-shadow: 3px -3px 5px #3c2f29;
+}
+.text-shadow-top-right-chihiro {
+  text-shadow: 3px -3px 5px #c76862;
+}
+.text-shadow-right {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow-right-chihiro {
+  text-shadow: 3px 0 5px #c76862;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-haku {
+  text-shadow: 0 0 5px #87bba2;
+}
+.text-shadow-top {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-haku {
+  text-shadow: 0 -3px 5px #87bba2;
+}
+.text-shadow-top-right {
+  text-shadow: 3px -3px 5px #3c2f29;
+}
+.text-shadow-top-right-haku {
+  text-shadow: 3px -3px 5px #87bba2;
+}
+.text-shadow-right {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow-right-haku {
+  text-shadow: 3px 0 5px #87bba2;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-zeniba {
+  text-shadow: 0 0 5px #9d0129;
+}
+.text-shadow-top {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-zeniba {
+  text-shadow: 0 -3px 5px #9d0129;
+}
+.text-shadow-top-right {
+  text-shadow: 3px -3px 5px #3c2f29;
+}
+.text-shadow-top-right-zeniba {
+  text-shadow: 3px -3px 5px #9d0129;
+}
+.text-shadow-right {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow-right-zeniba {
+  text-shadow: 3px 0 5px #9d0129;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-lin {
+  text-shadow: 0 0 5px #b54d68;
+}
+.text-shadow-top {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-lin {
+  text-shadow: 0 -3px 5px #b54d68;
+}
+.text-shadow-top-right {
+  text-shadow: 3px -3px 5px #3c2f29;
+}
+.text-shadow-top-right-lin {
+  text-shadow: 3px -3px 5px #b54d68;
+}
+.text-shadow-right {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow-right-lin {
+  text-shadow: 3px 0 5px #b54d68;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-yubaba {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-top {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-yubaba {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-right {
+  text-shadow: 3px -3px 5px #3c2f29;
+}
+.text-shadow-top-right-yubaba {
+  text-shadow: 3px -3px 5px #3c2f29;
+}
+.text-shadow-right {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow-right-yubaba {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-akio {
+  text-shadow: 0 0 5px #437155;
+}
+.text-shadow-top {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-akio {
+  text-shadow: 0 -3px 5px #437155;
+}
+.text-shadow-top-right {
+  text-shadow: 3px -3px 5px #3c2f29;
+}
+.text-shadow-top-right-akio {
+  text-shadow: 3px -3px 5px #437155;
+}
+.text-shadow-right {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow-right-akio {
+  text-shadow: 3px 0 5px #437155;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-noface {
+  text-shadow: 0 0 5px #8d83c3;
+}
+.text-shadow-top {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-noface {
+  text-shadow: 0 -3px 5px #8d83c3;
+}
+.text-shadow-top-right {
+  text-shadow: 3px -3px 5px #3c2f29;
+}
+.text-shadow-top-right-noface {
+  text-shadow: 3px -3px 5px #8d83c3;
+}
+.text-shadow-right {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow-right-noface {
+  text-shadow: 3px 0 5px #8d83c3;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-noseaun {
+  text-shadow: 0 0 5px #dc8eb5;
+}
+.text-shadow-top {
+  text-shadow: 0 -3px 5px #3c2f29;
+}
+.text-shadow-top-noseaun {
+  text-shadow: 0 -3px 5px #dc8eb5;
+}
+.text-shadow-top-right {
+  text-shadow: 3px -3px 5px #3c2f29;
+}
+.text-shadow-top-right-noseaun {
+  text-shadow: 3px -3px 5px #dc8eb5;
+}
+.text-shadow-right {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow-right-noseaun {
+  text-shadow: 3px 0 5px #dc8eb5;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-chihiro {
+  text-shadow: 0 0 5px #c76862;
+}
+.text-shadow-bottom {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-chihiro {
+  text-shadow: 0 3px 5px #c76862;
+}
+.text-shadow-bottom-left {
+  text-shadow: -3px 3px 5px #3c2f29;
+}
+.text-shadow-bottom-left-chihiro {
+  text-shadow: -3px 3px 5px #c76862;
+}
+.text-shadow-left {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow-left-chihiro {
+  text-shadow: -3px 0 5px #c76862;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-haku {
+  text-shadow: 0 0 5px #87bba2;
+}
+.text-shadow-bottom {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-haku {
+  text-shadow: 0 3px 5px #87bba2;
+}
+.text-shadow-bottom-left {
+  text-shadow: -3px 3px 5px #3c2f29;
+}
+.text-shadow-bottom-left-haku {
+  text-shadow: -3px 3px 5px #87bba2;
+}
+.text-shadow-left {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow-left-haku {
+  text-shadow: -3px 0 5px #87bba2;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-zeniba {
+  text-shadow: 0 0 5px #9d0129;
+}
+.text-shadow-bottom {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-zeniba {
+  text-shadow: 0 3px 5px #9d0129;
+}
+.text-shadow-bottom-left {
+  text-shadow: -3px 3px 5px #3c2f29;
+}
+.text-shadow-bottom-left-zeniba {
+  text-shadow: -3px 3px 5px #9d0129;
+}
+.text-shadow-left {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow-left-zeniba {
+  text-shadow: -3px 0 5px #9d0129;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-lin {
+  text-shadow: 0 0 5px #b54d68;
+}
+.text-shadow-bottom {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-lin {
+  text-shadow: 0 3px 5px #b54d68;
+}
+.text-shadow-bottom-left {
+  text-shadow: -3px 3px 5px #3c2f29;
+}
+.text-shadow-bottom-left-lin {
+  text-shadow: -3px 3px 5px #b54d68;
+}
+.text-shadow-left {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow-left-lin {
+  text-shadow: -3px 0 5px #b54d68;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-yubaba {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-bottom {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-yubaba {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-left {
+  text-shadow: -3px 3px 5px #3c2f29;
+}
+.text-shadow-bottom-left-yubaba {
+  text-shadow: -3px 3px 5px #3c2f29;
+}
+.text-shadow-left {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow-left-yubaba {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-akio {
+  text-shadow: 0 0 5px #437155;
+}
+.text-shadow-bottom {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-akio {
+  text-shadow: 0 3px 5px #437155;
+}
+.text-shadow-bottom-left {
+  text-shadow: -3px 3px 5px #3c2f29;
+}
+.text-shadow-bottom-left-akio {
+  text-shadow: -3px 3px 5px #437155;
+}
+.text-shadow-left {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow-left-akio {
+  text-shadow: -3px 0 5px #437155;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-noface {
+  text-shadow: 0 0 5px #8d83c3;
+}
+.text-shadow-bottom {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-noface {
+  text-shadow: 0 3px 5px #8d83c3;
+}
+.text-shadow-bottom-left {
+  text-shadow: -3px 3px 5px #3c2f29;
+}
+.text-shadow-bottom-left-noface {
+  text-shadow: -3px 3px 5px #8d83c3;
+}
+.text-shadow-left {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow-left-noface {
+  text-shadow: -3px 0 5px #8d83c3;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-noseaun {
+  text-shadow: 0 0 5px #dc8eb5;
+}
+.text-shadow-bottom {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-noseaun {
+  text-shadow: 0 3px 5px #dc8eb5;
+}
+.text-shadow-bottom-left {
+  text-shadow: -3px 3px 5px #3c2f29;
+}
+.text-shadow-bottom-left-noseaun {
+  text-shadow: -3px 3px 5px #dc8eb5;
+}
+.text-shadow-left {
+  text-shadow: -3px 0 5px #3c2f29;
+}
+.text-shadow-left-noseaun {
+  text-shadow: -3px 0 5px #dc8eb5;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-chihiro {
+  text-shadow: 0 0 5px #c76862;
+}
+.text-shadow-bottom {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-chihiro {
+  text-shadow: 0 3px 5px #c76862;
+}
+.text-shadow-bottom-right {
+  text-shadow: 3px 3px 5px #3c2f29;
+}
+.text-shadow-bottom-right-chihiro {
+  text-shadow: 3px 3px 5px #c76862;
+}
+.text-shadow-right {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow-right-chihiro {
+  text-shadow: 3px 0 5px #c76862;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-haku {
+  text-shadow: 0 0 5px #87bba2;
+}
+.text-shadow-bottom {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-haku {
+  text-shadow: 0 3px 5px #87bba2;
+}
+.text-shadow-bottom-right {
+  text-shadow: 3px 3px 5px #3c2f29;
+}
+.text-shadow-bottom-right-haku {
+  text-shadow: 3px 3px 5px #87bba2;
+}
+.text-shadow-right {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow-right-haku {
+  text-shadow: 3px 0 5px #87bba2;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-zeniba {
+  text-shadow: 0 0 5px #9d0129;
+}
+.text-shadow-bottom {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-zeniba {
+  text-shadow: 0 3px 5px #9d0129;
+}
+.text-shadow-bottom-right {
+  text-shadow: 3px 3px 5px #3c2f29;
+}
+.text-shadow-bottom-right-zeniba {
+  text-shadow: 3px 3px 5px #9d0129;
+}
+.text-shadow-right {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow-right-zeniba {
+  text-shadow: 3px 0 5px #9d0129;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-lin {
+  text-shadow: 0 0 5px #b54d68;
+}
+.text-shadow-bottom {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-lin {
+  text-shadow: 0 3px 5px #b54d68;
+}
+.text-shadow-bottom-right {
+  text-shadow: 3px 3px 5px #3c2f29;
+}
+.text-shadow-bottom-right-lin {
+  text-shadow: 3px 3px 5px #b54d68;
+}
+.text-shadow-right {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow-right-lin {
+  text-shadow: 3px 0 5px #b54d68;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-yubaba {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-bottom {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-yubaba {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-right {
+  text-shadow: 3px 3px 5px #3c2f29;
+}
+.text-shadow-bottom-right-yubaba {
+  text-shadow: 3px 3px 5px #3c2f29;
+}
+.text-shadow-right {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow-right-yubaba {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-akio {
+  text-shadow: 0 0 5px #437155;
+}
+.text-shadow-bottom {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-akio {
+  text-shadow: 0 3px 5px #437155;
+}
+.text-shadow-bottom-right {
+  text-shadow: 3px 3px 5px #3c2f29;
+}
+.text-shadow-bottom-right-akio {
+  text-shadow: 3px 3px 5px #437155;
+}
+.text-shadow-right {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow-right-akio {
+  text-shadow: 3px 0 5px #437155;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-noface {
+  text-shadow: 0 0 5px #8d83c3;
+}
+.text-shadow-bottom {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-noface {
+  text-shadow: 0 3px 5px #8d83c3;
+}
+.text-shadow-bottom-right {
+  text-shadow: 3px 3px 5px #3c2f29;
+}
+.text-shadow-bottom-right-noface {
+  text-shadow: 3px 3px 5px #8d83c3;
+}
+.text-shadow-right {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow-right-noface {
+  text-shadow: 3px 0 5px #8d83c3;
+}
+.text-shadow {
+  text-shadow: 0 0 5px #3c2f29;
+}
+.text-shadow-noseaun {
+  text-shadow: 0 0 5px #dc8eb5;
+}
+.text-shadow-bottom {
+  text-shadow: 0 3px 5px #3c2f29;
+}
+.text-shadow-bottom-noseaun {
+  text-shadow: 0 3px 5px #dc8eb5;
+}
+.text-shadow-bottom-right {
+  text-shadow: 3px 3px 5px #3c2f29;
+}
+.text-shadow-bottom-right-noseaun {
+  text-shadow: 3px 3px 5px #dc8eb5;
+}
+.text-shadow-right {
+  text-shadow: 3px 0 5px #3c2f29;
+}
+.text-shadow-right-noseaun {
+  text-shadow: 3px 0 5px #dc8eb5;
+}
+
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-chihiro {
+  box-shadow: 0 0 10px #c76862;
+}
+.box-shadow-top {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-chihiro {
+  box-shadow: 0 -3px 10px #c76862;
+}
+.box-shadow-top-left {
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.box-shadow-top-left-chihiro {
+  box-shadow: -3px -3px 10px #c76862;
+}
+.box-shadow-left {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow-left-chihiro {
+  box-shadow: -3px 0 10px #c76862;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-haku {
+  box-shadow: 0 0 10px #87bba2;
+}
+.box-shadow-top {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-haku {
+  box-shadow: 0 -3px 10px #87bba2;
+}
+.box-shadow-top-left {
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.box-shadow-top-left-haku {
+  box-shadow: -3px -3px 10px #87bba2;
+}
+.box-shadow-left {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow-left-haku {
+  box-shadow: -3px 0 10px #87bba2;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-zeniba {
+  box-shadow: 0 0 10px #9d0129;
+}
+.box-shadow-top {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-zeniba {
+  box-shadow: 0 -3px 10px #9d0129;
+}
+.box-shadow-top-left {
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.box-shadow-top-left-zeniba {
+  box-shadow: -3px -3px 10px #9d0129;
+}
+.box-shadow-left {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow-left-zeniba {
+  box-shadow: -3px 0 10px #9d0129;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-lin {
+  box-shadow: 0 0 10px #b54d68;
+}
+.box-shadow-top {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-lin {
+  box-shadow: 0 -3px 10px #b54d68;
+}
+.box-shadow-top-left {
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.box-shadow-top-left-lin {
+  box-shadow: -3px -3px 10px #b54d68;
+}
+.box-shadow-left {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow-left-lin {
+  box-shadow: -3px 0 10px #b54d68;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-yubaba {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-top {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-yubaba {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-left {
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.box-shadow-top-left-yubaba {
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.box-shadow-left {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow-left-yubaba {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-akio {
+  box-shadow: 0 0 10px #437155;
+}
+.box-shadow-top {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-akio {
+  box-shadow: 0 -3px 10px #437155;
+}
+.box-shadow-top-left {
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.box-shadow-top-left-akio {
+  box-shadow: -3px -3px 10px #437155;
+}
+.box-shadow-left {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow-left-akio {
+  box-shadow: -3px 0 10px #437155;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-noface {
+  box-shadow: 0 0 10px #8d83c3;
+}
+.box-shadow-top {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-noface {
+  box-shadow: 0 -3px 10px #8d83c3;
+}
+.box-shadow-top-left {
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.box-shadow-top-left-noface {
+  box-shadow: -3px -3px 10px #8d83c3;
+}
+.box-shadow-left {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow-left-noface {
+  box-shadow: -3px 0 10px #8d83c3;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-noseaun {
+  box-shadow: 0 0 10px #dc8eb5;
+}
+.box-shadow-top {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-noseaun {
+  box-shadow: 0 -3px 10px #dc8eb5;
+}
+.box-shadow-top-left {
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.box-shadow-top-left-noseaun {
+  box-shadow: -3px -3px 10px #dc8eb5;
+}
+.box-shadow-left {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow-left-noseaun {
+  box-shadow: -3px 0 10px #dc8eb5;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-chihiro {
+  box-shadow: 0 0 10px #c76862;
+}
+.box-shadow-top {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-chihiro {
+  box-shadow: 0 -3px 10px #c76862;
+}
+.box-shadow-top-right {
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.box-shadow-top-right-chihiro {
+  box-shadow: 3px -3px 10px #c76862;
+}
+.box-shadow-right {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow-right-chihiro {
+  box-shadow: 3px 0 10px #c76862;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-haku {
+  box-shadow: 0 0 10px #87bba2;
+}
+.box-shadow-top {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-haku {
+  box-shadow: 0 -3px 10px #87bba2;
+}
+.box-shadow-top-right {
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.box-shadow-top-right-haku {
+  box-shadow: 3px -3px 10px #87bba2;
+}
+.box-shadow-right {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow-right-haku {
+  box-shadow: 3px 0 10px #87bba2;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-zeniba {
+  box-shadow: 0 0 10px #9d0129;
+}
+.box-shadow-top {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-zeniba {
+  box-shadow: 0 -3px 10px #9d0129;
+}
+.box-shadow-top-right {
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.box-shadow-top-right-zeniba {
+  box-shadow: 3px -3px 10px #9d0129;
+}
+.box-shadow-right {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow-right-zeniba {
+  box-shadow: 3px 0 10px #9d0129;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-lin {
+  box-shadow: 0 0 10px #b54d68;
+}
+.box-shadow-top {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-lin {
+  box-shadow: 0 -3px 10px #b54d68;
+}
+.box-shadow-top-right {
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.box-shadow-top-right-lin {
+  box-shadow: 3px -3px 10px #b54d68;
+}
+.box-shadow-right {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow-right-lin {
+  box-shadow: 3px 0 10px #b54d68;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-yubaba {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-top {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-yubaba {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-right {
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.box-shadow-top-right-yubaba {
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.box-shadow-right {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow-right-yubaba {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-akio {
+  box-shadow: 0 0 10px #437155;
+}
+.box-shadow-top {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-akio {
+  box-shadow: 0 -3px 10px #437155;
+}
+.box-shadow-top-right {
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.box-shadow-top-right-akio {
+  box-shadow: 3px -3px 10px #437155;
+}
+.box-shadow-right {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow-right-akio {
+  box-shadow: 3px 0 10px #437155;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-noface {
+  box-shadow: 0 0 10px #8d83c3;
+}
+.box-shadow-top {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-noface {
+  box-shadow: 0 -3px 10px #8d83c3;
+}
+.box-shadow-top-right {
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.box-shadow-top-right-noface {
+  box-shadow: 3px -3px 10px #8d83c3;
+}
+.box-shadow-right {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow-right-noface {
+  box-shadow: 3px 0 10px #8d83c3;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-noseaun {
+  box-shadow: 0 0 10px #dc8eb5;
+}
+.box-shadow-top {
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.box-shadow-top-noseaun {
+  box-shadow: 0 -3px 10px #dc8eb5;
+}
+.box-shadow-top-right {
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.box-shadow-top-right-noseaun {
+  box-shadow: 3px -3px 10px #dc8eb5;
+}
+.box-shadow-right {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow-right-noseaun {
+  box-shadow: 3px 0 10px #dc8eb5;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-chihiro {
+  box-shadow: 0 0 10px #c76862;
+}
+.box-shadow-bottom {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-chihiro {
+  box-shadow: 0 3px 10px #c76862;
+}
+.box-shadow-bottom-left {
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.box-shadow-bottom-left-chihiro {
+  box-shadow: -3px 3px 10px #c76862;
+}
+.box-shadow-left {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow-left-chihiro {
+  box-shadow: -3px 0 10px #c76862;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-haku {
+  box-shadow: 0 0 10px #87bba2;
+}
+.box-shadow-bottom {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-haku {
+  box-shadow: 0 3px 10px #87bba2;
+}
+.box-shadow-bottom-left {
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.box-shadow-bottom-left-haku {
+  box-shadow: -3px 3px 10px #87bba2;
+}
+.box-shadow-left {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow-left-haku {
+  box-shadow: -3px 0 10px #87bba2;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-zeniba {
+  box-shadow: 0 0 10px #9d0129;
+}
+.box-shadow-bottom {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-zeniba {
+  box-shadow: 0 3px 10px #9d0129;
+}
+.box-shadow-bottom-left {
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.box-shadow-bottom-left-zeniba {
+  box-shadow: -3px 3px 10px #9d0129;
+}
+.box-shadow-left {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow-left-zeniba {
+  box-shadow: -3px 0 10px #9d0129;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-lin {
+  box-shadow: 0 0 10px #b54d68;
+}
+.box-shadow-bottom {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-lin {
+  box-shadow: 0 3px 10px #b54d68;
+}
+.box-shadow-bottom-left {
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.box-shadow-bottom-left-lin {
+  box-shadow: -3px 3px 10px #b54d68;
+}
+.box-shadow-left {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow-left-lin {
+  box-shadow: -3px 0 10px #b54d68;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-yubaba {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-bottom {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-yubaba {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-left {
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.box-shadow-bottom-left-yubaba {
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.box-shadow-left {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow-left-yubaba {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-akio {
+  box-shadow: 0 0 10px #437155;
+}
+.box-shadow-bottom {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-akio {
+  box-shadow: 0 3px 10px #437155;
+}
+.box-shadow-bottom-left {
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.box-shadow-bottom-left-akio {
+  box-shadow: -3px 3px 10px #437155;
+}
+.box-shadow-left {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow-left-akio {
+  box-shadow: -3px 0 10px #437155;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-noface {
+  box-shadow: 0 0 10px #8d83c3;
+}
+.box-shadow-bottom {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-noface {
+  box-shadow: 0 3px 10px #8d83c3;
+}
+.box-shadow-bottom-left {
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.box-shadow-bottom-left-noface {
+  box-shadow: -3px 3px 10px #8d83c3;
+}
+.box-shadow-left {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow-left-noface {
+  box-shadow: -3px 0 10px #8d83c3;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-noseaun {
+  box-shadow: 0 0 10px #dc8eb5;
+}
+.box-shadow-bottom {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-noseaun {
+  box-shadow: 0 3px 10px #dc8eb5;
+}
+.box-shadow-bottom-left {
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.box-shadow-bottom-left-noseaun {
+  box-shadow: -3px 3px 10px #dc8eb5;
+}
+.box-shadow-left {
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.box-shadow-left-noseaun {
+  box-shadow: -3px 0 10px #dc8eb5;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-chihiro {
+  box-shadow: 0 0 10px #c76862;
+}
+.box-shadow-bottom {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-chihiro {
+  box-shadow: 0 3px 10px #c76862;
+}
+.box-shadow-bottom-right {
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.box-shadow-bottom-right-chihiro {
+  box-shadow: 3px 3px 10px #c76862;
+}
+.box-shadow-right {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow-right-chihiro {
+  box-shadow: 3px 0 10px #c76862;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-haku {
+  box-shadow: 0 0 10px #87bba2;
+}
+.box-shadow-bottom {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-haku {
+  box-shadow: 0 3px 10px #87bba2;
+}
+.box-shadow-bottom-right {
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.box-shadow-bottom-right-haku {
+  box-shadow: 3px 3px 10px #87bba2;
+}
+.box-shadow-right {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow-right-haku {
+  box-shadow: 3px 0 10px #87bba2;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-zeniba {
+  box-shadow: 0 0 10px #9d0129;
+}
+.box-shadow-bottom {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-zeniba {
+  box-shadow: 0 3px 10px #9d0129;
+}
+.box-shadow-bottom-right {
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.box-shadow-bottom-right-zeniba {
+  box-shadow: 3px 3px 10px #9d0129;
+}
+.box-shadow-right {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow-right-zeniba {
+  box-shadow: 3px 0 10px #9d0129;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-lin {
+  box-shadow: 0 0 10px #b54d68;
+}
+.box-shadow-bottom {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-lin {
+  box-shadow: 0 3px 10px #b54d68;
+}
+.box-shadow-bottom-right {
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.box-shadow-bottom-right-lin {
+  box-shadow: 3px 3px 10px #b54d68;
+}
+.box-shadow-right {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow-right-lin {
+  box-shadow: 3px 0 10px #b54d68;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-yubaba {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-bottom {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-yubaba {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-right {
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.box-shadow-bottom-right-yubaba {
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.box-shadow-right {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow-right-yubaba {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-akio {
+  box-shadow: 0 0 10px #437155;
+}
+.box-shadow-bottom {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-akio {
+  box-shadow: 0 3px 10px #437155;
+}
+.box-shadow-bottom-right {
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.box-shadow-bottom-right-akio {
+  box-shadow: 3px 3px 10px #437155;
+}
+.box-shadow-right {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow-right-akio {
+  box-shadow: 3px 0 10px #437155;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-noface {
+  box-shadow: 0 0 10px #8d83c3;
+}
+.box-shadow-bottom {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-noface {
+  box-shadow: 0 3px 10px #8d83c3;
+}
+.box-shadow-bottom-right {
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.box-shadow-bottom-right-noface {
+  box-shadow: 3px 3px 10px #8d83c3;
+}
+.box-shadow-right {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow-right-noface {
+  box-shadow: 3px 0 10px #8d83c3;
+}
+.box-shadow {
+  box-shadow: 0 0 10px #3c2f29;
+}
+.box-shadow-noseaun {
+  box-shadow: 0 0 10px #dc8eb5;
+}
+.box-shadow-bottom {
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.box-shadow-bottom-noseaun {
+  box-shadow: 0 3px 10px #dc8eb5;
+}
+.box-shadow-bottom-right {
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.box-shadow-bottom-right-noseaun {
+  box-shadow: 3px 3px 10px #dc8eb5;
+}
+.box-shadow-right {
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.box-shadow-right-noseaun {
+  box-shadow: 3px 0 10px #dc8eb5;
+}
+
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-chihiro:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #c76862;
+}
+.button-shadow-top:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-chihiro:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #c76862;
+}
+.button-shadow-top-left:hover {
+  cursor: pointer;
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.button-shadow-top-left-chihiro:hover {
+  cursor: pointer;
+  box-shadow: -3px -3px 10px #c76862;
+}
+.button-shadow-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow-left-chihiro:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #c76862;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-haku:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #87bba2;
+}
+.button-shadow-top:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-haku:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #87bba2;
+}
+.button-shadow-top-left:hover {
+  cursor: pointer;
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.button-shadow-top-left-haku:hover {
+  cursor: pointer;
+  box-shadow: -3px -3px 10px #87bba2;
+}
+.button-shadow-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow-left-haku:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #87bba2;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-zeniba:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #9d0129;
+}
+.button-shadow-top:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-zeniba:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #9d0129;
+}
+.button-shadow-top-left:hover {
+  cursor: pointer;
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.button-shadow-top-left-zeniba:hover {
+  cursor: pointer;
+  box-shadow: -3px -3px 10px #9d0129;
+}
+.button-shadow-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow-left-zeniba:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #9d0129;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-lin:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #b54d68;
+}
+.button-shadow-top:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-lin:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #b54d68;
+}
+.button-shadow-top-left:hover {
+  cursor: pointer;
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.button-shadow-top-left-lin:hover {
+  cursor: pointer;
+  box-shadow: -3px -3px 10px #b54d68;
+}
+.button-shadow-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow-left-lin:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #b54d68;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-yubaba:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-top:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-yubaba:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-left:hover {
+  cursor: pointer;
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.button-shadow-top-left-yubaba:hover {
+  cursor: pointer;
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.button-shadow-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow-left-yubaba:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-akio:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #437155;
+}
+.button-shadow-top:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-akio:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #437155;
+}
+.button-shadow-top-left:hover {
+  cursor: pointer;
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.button-shadow-top-left-akio:hover {
+  cursor: pointer;
+  box-shadow: -3px -3px 10px #437155;
+}
+.button-shadow-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow-left-akio:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #437155;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-noface:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #8d83c3;
+}
+.button-shadow-top:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-noface:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #8d83c3;
+}
+.button-shadow-top-left:hover {
+  cursor: pointer;
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.button-shadow-top-left-noface:hover {
+  cursor: pointer;
+  box-shadow: -3px -3px 10px #8d83c3;
+}
+.button-shadow-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow-left-noface:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #8d83c3;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-noseaun:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #dc8eb5;
+}
+.button-shadow-top:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-noseaun:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #dc8eb5;
+}
+.button-shadow-top-left:hover {
+  cursor: pointer;
+  box-shadow: -3px -3px 10px #3c2f29;
+}
+.button-shadow-top-left-noseaun:hover {
+  cursor: pointer;
+  box-shadow: -3px -3px 10px #dc8eb5;
+}
+.button-shadow-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow-left-noseaun:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #dc8eb5;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-chihiro:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #c76862;
+}
+.button-shadow-top:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-chihiro:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #c76862;
+}
+.button-shadow-top-right:hover {
+  cursor: pointer;
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.button-shadow-top-right-chihiro:hover {
+  cursor: pointer;
+  box-shadow: 3px -3px 10px #c76862;
+}
+.button-shadow-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow-right-chihiro:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #c76862;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-haku:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #87bba2;
+}
+.button-shadow-top:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-haku:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #87bba2;
+}
+.button-shadow-top-right:hover {
+  cursor: pointer;
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.button-shadow-top-right-haku:hover {
+  cursor: pointer;
+  box-shadow: 3px -3px 10px #87bba2;
+}
+.button-shadow-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow-right-haku:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #87bba2;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-zeniba:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #9d0129;
+}
+.button-shadow-top:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-zeniba:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #9d0129;
+}
+.button-shadow-top-right:hover {
+  cursor: pointer;
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.button-shadow-top-right-zeniba:hover {
+  cursor: pointer;
+  box-shadow: 3px -3px 10px #9d0129;
+}
+.button-shadow-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow-right-zeniba:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #9d0129;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-lin:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #b54d68;
+}
+.button-shadow-top:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-lin:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #b54d68;
+}
+.button-shadow-top-right:hover {
+  cursor: pointer;
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.button-shadow-top-right-lin:hover {
+  cursor: pointer;
+  box-shadow: 3px -3px 10px #b54d68;
+}
+.button-shadow-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow-right-lin:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #b54d68;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-yubaba:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-top:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-yubaba:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-right:hover {
+  cursor: pointer;
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.button-shadow-top-right-yubaba:hover {
+  cursor: pointer;
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.button-shadow-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow-right-yubaba:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-akio:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #437155;
+}
+.button-shadow-top:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-akio:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #437155;
+}
+.button-shadow-top-right:hover {
+  cursor: pointer;
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.button-shadow-top-right-akio:hover {
+  cursor: pointer;
+  box-shadow: 3px -3px 10px #437155;
+}
+.button-shadow-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow-right-akio:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #437155;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-noface:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #8d83c3;
+}
+.button-shadow-top:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-noface:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #8d83c3;
+}
+.button-shadow-top-right:hover {
+  cursor: pointer;
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.button-shadow-top-right-noface:hover {
+  cursor: pointer;
+  box-shadow: 3px -3px 10px #8d83c3;
+}
+.button-shadow-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow-right-noface:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #8d83c3;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-noseaun:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #dc8eb5;
+}
+.button-shadow-top:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #3c2f29;
+}
+.button-shadow-top-noseaun:hover {
+  cursor: pointer;
+  box-shadow: 0 -3px 10px #dc8eb5;
+}
+.button-shadow-top-right:hover {
+  cursor: pointer;
+  box-shadow: 3px -3px 10px #3c2f29;
+}
+.button-shadow-top-right-noseaun:hover {
+  cursor: pointer;
+  box-shadow: 3px -3px 10px #dc8eb5;
+}
+.button-shadow-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow-right-noseaun:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #dc8eb5;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-chihiro:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #c76862;
+}
+.button-shadow-bottom:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-chihiro:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #c76862;
+}
+.button-shadow-bottom-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.button-shadow-bottom-left-chihiro:hover {
+  cursor: pointer;
+  box-shadow: -3px 3px 10px #c76862;
+}
+.button-shadow-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow-left-chihiro:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #c76862;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-haku:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #87bba2;
+}
+.button-shadow-bottom:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-haku:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #87bba2;
+}
+.button-shadow-bottom-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.button-shadow-bottom-left-haku:hover {
+  cursor: pointer;
+  box-shadow: -3px 3px 10px #87bba2;
+}
+.button-shadow-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow-left-haku:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #87bba2;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-zeniba:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #9d0129;
+}
+.button-shadow-bottom:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-zeniba:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #9d0129;
+}
+.button-shadow-bottom-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.button-shadow-bottom-left-zeniba:hover {
+  cursor: pointer;
+  box-shadow: -3px 3px 10px #9d0129;
+}
+.button-shadow-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow-left-zeniba:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #9d0129;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-lin:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #b54d68;
+}
+.button-shadow-bottom:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-lin:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #b54d68;
+}
+.button-shadow-bottom-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.button-shadow-bottom-left-lin:hover {
+  cursor: pointer;
+  box-shadow: -3px 3px 10px #b54d68;
+}
+.button-shadow-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow-left-lin:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #b54d68;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-yubaba:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-bottom:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-yubaba:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.button-shadow-bottom-left-yubaba:hover {
+  cursor: pointer;
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.button-shadow-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow-left-yubaba:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-akio:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #437155;
+}
+.button-shadow-bottom:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-akio:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #437155;
+}
+.button-shadow-bottom-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.button-shadow-bottom-left-akio:hover {
+  cursor: pointer;
+  box-shadow: -3px 3px 10px #437155;
+}
+.button-shadow-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow-left-akio:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #437155;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-noface:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #8d83c3;
+}
+.button-shadow-bottom:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-noface:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #8d83c3;
+}
+.button-shadow-bottom-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.button-shadow-bottom-left-noface:hover {
+  cursor: pointer;
+  box-shadow: -3px 3px 10px #8d83c3;
+}
+.button-shadow-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow-left-noface:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #8d83c3;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-noseaun:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #dc8eb5;
+}
+.button-shadow-bottom:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-noseaun:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #dc8eb5;
+}
+.button-shadow-bottom-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 3px 10px #3c2f29;
+}
+.button-shadow-bottom-left-noseaun:hover {
+  cursor: pointer;
+  box-shadow: -3px 3px 10px #dc8eb5;
+}
+.button-shadow-left:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #3c2f29;
+}
+.button-shadow-left-noseaun:hover {
+  cursor: pointer;
+  box-shadow: -3px 0 10px #dc8eb5;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-chihiro:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #c76862;
+}
+.button-shadow-bottom:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-chihiro:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #c76862;
+}
+.button-shadow-bottom-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.button-shadow-bottom-right-chihiro:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #c76862;
+}
+.button-shadow-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow-right-chihiro:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #c76862;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-haku:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #87bba2;
+}
+.button-shadow-bottom:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-haku:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #87bba2;
+}
+.button-shadow-bottom-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.button-shadow-bottom-right-haku:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #87bba2;
+}
+.button-shadow-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow-right-haku:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #87bba2;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-zeniba:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #9d0129;
+}
+.button-shadow-bottom:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-zeniba:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #9d0129;
+}
+.button-shadow-bottom-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.button-shadow-bottom-right-zeniba:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #9d0129;
+}
+.button-shadow-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow-right-zeniba:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #9d0129;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-lin:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #b54d68;
+}
+.button-shadow-bottom:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-lin:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #b54d68;
+}
+.button-shadow-bottom-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.button-shadow-bottom-right-lin:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #b54d68;
+}
+.button-shadow-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow-right-lin:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #b54d68;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-yubaba:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-bottom:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-yubaba:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.button-shadow-bottom-right-yubaba:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.button-shadow-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow-right-yubaba:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-akio:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #437155;
+}
+.button-shadow-bottom:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-akio:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #437155;
+}
+.button-shadow-bottom-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.button-shadow-bottom-right-akio:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #437155;
+}
+.button-shadow-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow-right-akio:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #437155;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-noface:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #8d83c3;
+}
+.button-shadow-bottom:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-noface:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #8d83c3;
+}
+.button-shadow-bottom-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.button-shadow-bottom-right-noface:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #8d83c3;
+}
+.button-shadow-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow-right-noface:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #8d83c3;
+}
+.button-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c2f29;
+}
+.button-shadow-noseaun:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #dc8eb5;
+}
+.button-shadow-bottom:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #3c2f29;
+}
+.button-shadow-bottom-noseaun:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #dc8eb5;
+}
+.button-shadow-bottom-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #3c2f29;
+}
+.button-shadow-bottom-right-noseaun:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #dc8eb5;
+}
+.button-shadow-right:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #3c2f29;
+}
+.button-shadow-right-noseaun:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 10px #dc8eb5;
+}
+
+.hov {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=shadow.css.map */

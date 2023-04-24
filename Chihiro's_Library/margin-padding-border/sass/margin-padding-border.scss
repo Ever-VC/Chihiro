@@ -1,0 +1,46 @@
+@use './variables';
+@use './mixinsfunc';
+
+body {
+    margin: 0 auto;
+    h1 {
+        margin: 0 auto;
+    }
+    p {
+        margin: 0 auto;
+    }
+}
+
+.m {
+    & {
+        margin: 1rem;
+    }
+    @each $pos-y in variables.$positions-y {
+        @include mixinsfunc.margin-padding($pos-y, 'margin');
+    }
+    @each $pos-x in variables.$positions-x {
+        @include mixinsfunc.margin-padding($pos-x, 'margin');
+    }
+}
+
+.p {
+    & {
+        padding: 1rem;
+    }
+    @each $pos-y in variables.$positions-y {
+        @include mixinsfunc.margin-padding($pos-y, 'padding');
+    }
+    @each $pos-x in variables.$positions-x {
+        @include mixinsfunc.margin-padding($pos-x, 'padding');
+    }
+}
+
+.border {
+    @each $name, $color in variables.$colors{
+        @each $size in variables.$border-size{
+            @each $type in variables.$type_borders {
+                @include mixinsfunc.border($name, $color, $size, $type);
+            }
+        }
+    }
+}

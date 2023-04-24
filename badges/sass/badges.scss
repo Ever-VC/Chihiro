@@ -1,0 +1,32 @@
+@use './variables';
+@use './mixinsfunc';
+
+.badge {
+    text-align: center;
+    border-radius: 5px;
+    background-color: variables.$zeniba;
+    color: white;
+    padding: 4px 8px;
+    @each $name, $bg-color in variables.$colors {
+        @each $nameT, $text-color in variables.$colors {
+            @include mixinsfunc.badge($name, $bg-color, $nameT, $text-color);
+        }
+    }
+
+    &-hov {
+        @each $name, $bg-color in variables.$colors {
+            @each $nameT, $text-color in variables.$colors {
+                @include mixinsfunc.badge-hov($name, $bg-color, $nameT, $text-color);
+            }
+        }
+    }
+}
+
+.btn-badge {
+    text-align: center;
+    @each $name, $bg-color in variables.$colors {
+        @each $nameT, $text-color in variables.$colors {
+            @include mixinsfunc.badge($name, $bg-color, $nameT, $text-color);
+        }
+    }
+}

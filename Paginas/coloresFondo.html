@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chihiro's Library • Colores de Fondo</title>
+    <link rel="stylesheet" href="../reset.css">
+    <!-- Iconos Virtuales -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"/>
+    <!-- Icon-->
+    <link rel="icon" href="img/kuro02.svg">
+    <!-- Librerias -->
+    <link rel="stylesheet" href="../Alertas/css/style.css">
+    <link rel="stylesheet" href="../badges/css/badges.css">
+    <link rel="stylesheet" href="../hide-elements/css/hide.css">
+    <link rel="stylesheet" href="../margin-padding-border/css/margin-padding-border.css">
+    <link rel="stylesheet" href="../move-elements/css/position.css">
+    <link rel="stylesheet" href="../Botones/css/style.css">
+    <link rel="stylesheet" href="../EdicionDeTexto/css/style.css">
+    <link rel="stylesheet" href="../RedondearElementos/css/style.css">
+    <link rel="stylesheet" href="../Contenedores/css/contenedores.css">
+    <link rel="stylesheet" href="../ColoresDeFondo/css/style.css">
+    <link rel="stylesheet" href="../BarraDeNavegacion/css/style.css">
+    <link rel="stylesheet" href="../Tarjetas/css/style.css">
+    <link rel="stylesheet" href="../shadow/css/shadow.css">
+    <link rel="stylesheet" href="../Formularios/css/style.css">
+    <!-- CSS SITIO WEB -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <!-- Barra de navegacion -->
+    <div class="bg-color-transparente">
+        <nav class="navbar">
+          <div onclick="location.href='./documentacion.html'" class="navbar_logo title font-color-yubaba"><img src="../img/kuro02.svg" alt="" height="75px" width="80px">Chihiro</div>
+          <div class="navbar_bars" ><i class="fas fa-bars"></i></div>
+          <ul class="navbar_menu">
+            <button class="btn-colored-chihiro text-size-h hov" onclick="location.href='./index.html'">Inicio</button>
+            <li><a href="https://github.com/EverVC/Chihiro.git"><div class="btn btn-icon-chihiro"><i class="fab fa-github fa-3x"></i></div></a></li>
+            <li><a href=""><div class="btn btn-icon-chihiro"><i class="fas fa-user-circle fa-3x"></i></div></a></li>
+            <li><a href="https://www.netflix.com/sv-en/title/60023642"><div class="btn btn-icon-chihiro"><i class="fas fa-compact-disc fa-3x"></i></div></a></li>
+        </ul>
+        </nav>
+    </div>
+
+    <!-- CONTENIDO GRID -->
+    <div class="m grid"> 
+
+        <!-- Columna 1 -->
+        <div class="grid-nav font-color-yubaba">
+          <p class="m"><span class="text-size-h4 hov m fweight-bolder ">CONTENIDO:</span></p><br>
+          <p onclick="location.href='./botones.html'"><span class="font-hover-chihiro hov m">Botones</span></p><br>
+          <p onclick="location.href='./formularios.html'"><span class="font-hover-chihiro hov m">Formularios</span></p><br>
+          <p onclick="location.href='./tarjetas.html'"><span class="font-hover-chihiro hov m">Tarjetas</span></p><br>
+          <p onclick="location.href='./alertas.html'"><span class="font-hover-chihiro hov m">Alertas</span></p><br>
+          <p onclick="location.href='./navbar.html'"><span class="font-hover-chihiro hov m">Barras de navegación</span></p><br>
+          <p onclick="location.href='./badges.html'"><span class="font-hover-chihiro hov m">Badges</span></p><br>
+          <p onclick="location.href='./contenedores.html'"><span class="font-hover-chihiro hov m">Contenedores</span></p><br>
+          <p onclick="location.href='./edicionTexto.html'"><span class="font-hover-chihiro hov m">Tamaño, grosor, color y tipo de letra</span></p><br>
+          <p onclick="location.href='./sombras.html'"><span class="font-hover-chihiro hov m">Sombras</span></p><br>
+          <p onclick="location.href='./margen_padding_borde.html'"><span class="font-hover-chihiro hov m">Márgenes, paddings y bordes</span></p><br>
+          <p onclick="location.href='./mover_elementos.html'"><span class="font-hover-chihiro hov m">Mover elementos</span></p><br>
+          <p onclick="location.href='./redondear.html'"><span class="font-hover-chihiro hov m">Redondear elementos</span></p><br>
+          <p onclick="location.href='./ocultar_elementos.html'"><span class="font-hover-chihiro hov m">Ocultar elementos</span></p><br>
+          <p onclick="location.href='./coloresFondo.html'" class="m-bottom"><span class="font-hover-chihiro hov m">Color de fondo</span></p>
+        </div>
+
+        <!-- Columna 2 -->
+        <div class="grid-content font-color-yubaba">
+            <h1 class="title h1-doc text-uppercase text-center font-color-chihiro">Colores de Fondo</h1><br><br>
+            <div class="m-left-2 text-size-h4 font-spacing">
+            <h1 id="bg" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Background-color:</h1>
+            <hr class="font-color-chihiro">
+                <p class=" m-top ">
+                  De forma similar a las clases de color de texto contextual, establece el fondo de un elemento en cualquier clase contextual, la clase para el fondo es <span class="font-color-susuwatari fweight-bold">bg-color</span>.
+                  <br><br> 
+                   Las utilidades de fondo no configuran color de texto, pero pueden configurar la opacidad del fondo con <span class="font-color-susuwatari fweight-bold">bg-opacity</span> especificando el grado de opacidad.
+                </p>
+
+                <br><br>
+                <div class="tablas text-center">
+                  <table class="table m-left -2">
+                    <tr class="table">
+                        <th class="table h">Nombre</th>
+                        <th class="table h font-color-blanco">espacio columnas</th>
+                        <th class="table h">Opacidad Aplicada</th>
+                    </tr>
+                    <tr class="table">
+                        <td class="table h">10</td>
+                        <td class="table h"></td>
+                        <td class="table h">0.1</td>
+                    </tr>
+                    <tr class="table">
+                        <td class="table h">25</td>
+                        <td class="table h"></td>
+                        <td class="table h">0.3</td>
+                    </tr>
+                    <tr class="table">
+                        <td class="table h">50</td>
+                        <td class="table h"></td>
+                        <td class="table h">0.6</td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table h">75</td>
+                      <td class="table h"></td>
+                      <td class="table h">0.9</td>
+                  </tr>
+                </table>
+                </div>
+
+
+                <h1 id="bgcolor" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Colores de fondos:</h1>
+                <hr class="font-color-chihiro">
+                <p class="m-top ">
+                   El catalogo de colores, como en otras clases es presentado por el nombre de un personaje de la pelicula.
+                </p>
+                  <br><br>
+                <pre class="prettyprint subtitle">
+
+  &lt;div class="bg-color-akio"&gt;Tengo un background-color Akio&lt;/div&gt;
+  &lt;div class="bg-color-lin"&gt;Tengo un background-color Lin&lt;/div&gt;
+  &lt;div class="bg-color-noface"&gt;Tengo un background-color No Face&lt;/div&gt;
+  &lt;div class="bg-color-haku"&gt;Tengo un background-color Haku&lt;/div&gt;
+  &lt;div class="bg-color-zeniba"&gt;Tengo un background-color Zeniba&lt;/div&gt;
+  &lt;div class="bg-color-yubaba"&gt;Tengo un background-color Yubaba&lt;/div&gt;
+  &lt;div class="bg-color-susuwatari"&gt;Tengo un background-color Susuwatari&lt;/div&gt;
+                </pre>
+                <div class="font-color-blanco subtitle">
+                  <div class="p m bg-color-akio">Tengo un background-color Akio</div>
+                  <div class="p m bg-color-lin">Tengo un background-color Lin</div>
+                  <div class="p m bg-color-noface">Tengo un background-color No Face</div>
+                  <div class="p m bg-color-haku">Tengo un background-color Haku</div>
+                  <div class="p m bg-color-zeniba">Tengo un background-color Zeniba</div>
+                  <div class="p m bg-color-yubaba">Tengo un background-color Yubaba</div>
+                  <div class="p m bg-color-susuwatari">Tengo un background-color Susuwatari</div>
+                </div>
+
+                <h1 id="bgopacity" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Opacidad en el fondo: </h1>
+                <hr class="font-color-chihiro">
+                <p class="m-top ">
+                   El catalogo de opacidades, va de 0.1 a 0.9, de 3 en 3.
+                </p>
+                  <br><br>
+                <pre class="prettyprint subtitle">
+
+  &lt;div class="bg-opacity-75 bg-color-susuwatari"&gt;Tengo una opacidad de 75&lt;/div&gt;
+  &lt;div class="bg-opacity-50 bg-color-susuwatari"&gt;Tengo una opacidad de 50&lt;/div&gt;
+  &lt;div class="bg-opacity-25 bg-color-susuwatari"&gt;Tengo una opacidad de 25&lt;/div&gt;
+  &lt;div class="bg-opacity-10 bg-color-susuwatari"&gt;Tengo una opacidad de 10&lt;/div&gt;
+                </pre>
+
+                <div class="font-color-yubaba subtitle">
+                  <div class="m p bg-opacity-75 bg-color-susuwatari">Tengo una opacidad de 75</div>
+                  <div class="m p bg-opacity-50 bg-color-susuwatari">Tengo una opacidad de 50</div>
+                  <div class="m p bg-opacity-25 bg-color-susuwatari">Tengo una opacidad de 25</div>
+                  <div class="m p bg-opacity-10 bg-color-susuwatari">Tengo una opacidad de 10</div>
+                </div>
+                
+        </div>
+
+        </div>
+
+        <!-- Columna 3 -->
+        <div class="grid-pulubli">
+            <br><br><br>
+            <h1 class="subtitle font-spacing font-color-yubaba">Tabla de contenidos</h1>
+            <ul>
+                <li class="m-2"><a class=" text-deco-none font-hover-chihiro subtitle font-color-yubaba"  href="#bg">Background-color</a></li>
+                <li class="m-2"><a class=" text-deco-none font-hover-chihiro subtitle font-color-yubaba"  href="#bgcolor">Color</a></li>
+                <li class="m-2"><a class=" text-deco-none font-hover-chihiro subtitle font-color-yubaba"  href="#bgopacity">Opacidad</a></li>
+            </ul>
+        </div>
+
+        </div>
+
+
+
+    </div>
+
+    <br><br><br>
+    <!-- Pie de pagina -->
+    <div class="footer bg-color-susuwatari"> 
+      <div class="footer_container">
+
+        <div class="footer_container_col">
+          <h1 class="title text-size-h1 text-uppercase">Home</h1>
+          <p>¿Cómo utilizar?</p>
+          <ul>
+            <li><a href="./documentacion.html">Instalación</a></li>
+            <li><a href="./documentacion.html">Documentación</a></li>
+            <li><a href="">Donar, que bendicion</a></li>
+          </ul>
+        </div>
+
+        
+        <div class="footer_container_col">
+          <h1 class="title text-size-h1 text-uppercase">GRUPO</h1>
+          <p>¿Quiénes somos?</p>
+          <ul>
+            <li><a href="https://github.com/BeatrizzJimenezz">Beatriz Jiménez</a></li>
+            <li><a href="https://github.com/EverVC">Ever Vásquez</a></li>
+            <li><a href="">Rebeca Castro</a></li>
+          </ul>
+        </div>
+
+        
+        <div class="footer_container_col">
+          <h1 class="title text-size-h1 text-uppercase">Inspiración</h1>
+          <p>Pelicula</p>
+          <ul>
+            <li><a href="https://ghibli-park.jp/en/">Studio Ghibli Park</a></li>
+            <li><a href="https://www.ghibli-museum-shop.jp/contents/news/20230421/">Ghibli Museum</a></li>
+            <li><a href="https://www.ghibli.jp/works/chihiro/#frame">Galeria</a></li>
+          </ul>
+        </div>
+
+        
+        <div class="footer_container_col">
+          <h1 class="title text-size-h1 text-uppercase ">Asignación</h1>
+          <p>HDP155</p>
+          <ul>
+            <li><a href="https://docs.google.com/document/d/157iQ6ldo7Y0N43R4LEDk_DwQ4_2aM-j4/edit">Indicaciones</a></li>
+            <li><a href="https://www.ues.edu.sv/">Universidad</a></li>
+            <li><br></li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="container-xxl bg-color-yubaba">
+        <br>
+        <p class="text-size-h2 title text-center font-color-blanco">¡Gracias por ver!</p>
+        <br>
+    </div>
+
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
