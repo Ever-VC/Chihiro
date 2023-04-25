@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Jumble";
+  src: url(https://use.typekit.net/af/05eeea/00000000000000007735a9eb/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3);
+}
 .container:not(.is-fluid) {
   margin: 0 auto;
 }
@@ -7,22 +11,22 @@
     max-width: 530px;
   }
 }
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 760px) {
   .container:not(.is-fluid) {
     width: 100%;
-    max-width: 700px;
+    max-width: 740px;
   }
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 980px) {
   .container:not(.is-fluid) {
     width: 100%;
-    max-width: 930px;
+    max-width: 950px;
   }
 }
-@media only screen and (min-width: 1140px) {
+@media only screen and (min-width: 1240px) {
   .container:not(.is-fluid) {
     width: 100%;
-    max-width: 1040px;
+    max-width: 1140px;
   }
 }
 
@@ -34,61 +38,61 @@
     max-width: 530px;
   }
 }
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 760px) {
   .container-sm {
-    max-width: 700px;
+    max-width: 740px;
   }
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 980px) {
   .container-sm {
-    max-width: 930px;
+    max-width: 950px;
   }
 }
-@media only screen and (min-width: 1140px) {
+@media only screen and (min-width: 1240px) {
   .container-sm {
-    max-width: 1040px;
+    max-width: 1140px;
   }
 }
 
 .container-md {
   width: 100%;
 }
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 760px) {
   .container-md {
-    max-width: 700px;
+    max-width: 740px;
   }
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 980px) {
   .container-md {
-    max-width: 930px;
+    max-width: 950px;
   }
 }
-@media only screen and (min-width: 1140px) {
+@media only screen and (min-width: 1240px) {
   .container-md {
-    max-width: 1040px;
+    max-width: 1140px;
   }
 }
 
 .container-lg {
   width: 100%;
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 980px) {
   .container-lg {
-    max-width: 930px;
+    max-width: 950px;
   }
 }
-@media only screen and (min-width: 1140px) {
+@media only screen and (min-width: 1240px) {
   .container-lg {
-    max-width: 1040px;
+    max-width: 1140px;
   }
 }
 
 .container-xl {
   width: 100%;
 }
-@media only screen and (min-width: 1140px) {
+@media only screen and (min-width: 1240px) {
   .container-xl {
-    max-width: 1040px;
+    max-width: 1140px;
   }
 }
 

@@ -111,7 +111,7 @@ p
 }
 
 table, th, td {
-  border: 2px solid white;
+  border: 2px solid #fafaf8;
   border-collapse: collapse;
 }
 
@@ -132,4 +132,42 @@ th, td {
 {
   transform: none; 
   box-shadow: 0px 0px 0px rgba(0,0,0,0.3);
+}
+
+.container-grid
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-area:
+   "col col col"
+   "col col col"
+   "col col col";
+}
+
+col
+{
+  grid-area: col;
+}
+
+.palette
+{
+  height: 160px;
+  width: 120px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.palette span
+{
+  background-color: #fafaf8;
+  width: 120px;
+  padding-top: 0.4rem;
+  padding-bottom: 0.6rem;
+}
+
+.imagenes
+{
+  width: 800px;
+  height: auto;
 }

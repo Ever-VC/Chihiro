@@ -9,7 +9,7 @@
     <!-- Iconos Virtuales -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"/>
     <!-- Icon-->
-    <link rel="icon" href="img/kuro02.svg">
+    <link rel="icon" href="../img/kuro02.svg">
     <!-- Librerias -->
     <link rel="stylesheet" href="../Alertas/css/style.css">
     <link rel="stylesheet" href="../badges/css/badges.css">
@@ -38,7 +38,7 @@
             <ul class="navbar_menu">
               <button class="btn-colored-zeniba text-size-h5 hov" onclick="location.href='./index.html'">Inicio</button>
               <li><a href="https://github.com/EverVC/Chihiro.git"><div class="btn btn-icon-zeniba"><i class="fab fa-github fa-3x"></i></div></a></li>
-              <li><a href=""><div class="btn btn-icon-zeniba"><i class="fas fa-user-circle fa-3x"></i></div></a></li>
+              <li><a href="./desarrolladores.html"><div class="btn btn-icon-zeniba"><i class="fas fa-user-circle fa-3x"></i></div></a></li>
               <li><a href="https://www.netflix.com/sv-en/title/60023642"><div class="btn btn-icon-zeniba"><i class="fas fa-compact-disc fa-3x"></i></div></a></li>
             </ul>
         </nav>
@@ -48,30 +48,32 @@
     <div class="m grid"> 
 
         <!-- Columna 1 -->
-        <div class="grid-nav font-color-yubaba">
+        <div class="grid-nav font-color-yubaba m-left">
             <p class="m"><span class="text-size-h4 hov m fweight-bolder ">CONTENIDO:</span></p><br>
-            <p onclick="location.href='./botones.html'"><span class="font-hover-zeniba hov m">Botones</span></p><br>
-            <p onclick="location.href='./formularios.html'"><span class="font-hover-zeniba hov m">Formularios</span></p><br>
-            <p onclick="location.href='./tarjetas.html'"><span class="font-hover-zeniba hov m">Tarjetas</span></p><br>
-            <p onclick="location.href='./alertas.html'"><span class="font-hover-zeniba hov m">Alertas</span></p><br>
-            <p onclick="location.href='./navbar.html'"><span class="font-hover-zeniba hov m">Barras de navegación</span></p><br>
-            <p onclick="location.href='./badges.html'"><span class="font-hover-zeniba hov m">Badges</span></p><br>
-            <p onclick="location.href='./contenedores.html'"><span class="font-hover-zeniba hov m">Contenedores</span></p><br>
-            <p onclick="location.href='./edicionTexto.html'"><span class="font-hover-zeniba hov m">Tamaño, grosor, color y tipo de letra</span></p><br>
-            <p onclick="location.href='./sombras.html'"><span class="font-hover-zeniba hov m">Sombras</span></p><br>
-            <p onclick="location.href='./margen_padding_borde.html'"><span class="font-hover-zeniba hov m">Márgenes, paddings y bordes</span></p><br>
-            <p onclick="location.href='./mover_elementos.html'"><span class="font-hover-zeniba hov m">Mover elementos</span></p><br>
-            <p onclick="location.href='./redondear.html'"><span class="font-hover-zeniba hov m">Redondear elementos</span></p><br>
-            <p onclick="location.href='./ocultar_elementos.html'"><span class="font-hover-zeniba hov m">Ocultar elementos</span></p><br>
-            <p onclick="location.href='./coloresFondo.html'" class="m-bottom"><span class="font-hover-zeniba hov m">Color de fondo</span></p>
+            <p onclick="location.href='./documentacion.html'"><span class="hov font-color-zeniba font-hover-yubaba fweight-bolder">Instalación</span></p><br>
+            <p onclick="location.href='./botones.html'"><span class="font-hover-zeniba hov">Botones</span></p><br>
+            <p onclick="location.href='./formularios.html'"><span class="font-hover-zeniba hov">Formularios</span></p><br>
+            <p onclick="location.href='./tarjetas.html'"><span class="font-hover-zeniba hov">Tarjetas</span></p><br>
+            <p onclick="location.href='./alertas.html'"><span class="font-hover-zeniba hov">Alertas</span></p><br>
+            <p onclick="location.href='./navbar.html'"><span class="font-hover-zeniba hov">Barras de navegación</span></p><br>
+            <p onclick="location.href='./badges.html'"><span class="font-hover-zeniba hov">Badges</span></p><br>
+            <p onclick="location.href='./contenedores.html'"><span class="font-hover-zeniba hov">Contenedores</span></p><br>
+            <p onclick="location.href='./edicionTexto.html'"><span class="font-hover-zeniba hov">Tamaño, grosor, color y tipo de letra</span></p><br>
+            <p onclick="location.href='./sombras.html'"><span class="font-hover-zeniba hov">Sombras</span></p><br>
+            <p onclick="location.href='./margen_padding_borde.html'"><span class="font-hover-zeniba hov">Márgenes, paddings y bordes</span></p><br>
+            <p onclick="location.href='./mover_elementos.html'"><span class="font-hover-zeniba hov">Mover elementos</span></p><br>
+            <p onclick="location.href='./redondear.html'"><span class="font-hover-zeniba hov">Redondear elementos</span></p><br>
+            <p onclick="location.href='./ocultar_elementos.html'"><span class="font-hover-zeniba hov">Ocultar elementos</span></p><br>
+            <p onclick="location.href='./coloresFondo.html'" class="m-bottom"><span class="font-hover-zeniba hov">Color de fondo</span></p>
+            <p onclick="location.href='./paletaColores.html'"><span class="font-hover-zeniba hov">Paleta de colores</span></p><br>
         </div>
 
         <!-- Columna 2 -->
         <div class="grid-content font-color-yubaba">
             <h1 class="title h1-doc text-uppercase text-center font-color-zeniba">Sombras</h1><br><br>
             <div class="m-left-2 text-size-h4 font-spacing">
-            <h1 id="BoxShadow" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Box Shadow:</h1>
-            <hr class="font-color-zeniba">
+                <h1 id="BoxShadow" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Box Shadow:</h1>
+                <hr class="font-color-zeniba">
                 <p class="m-top ">
                     La propiedad CSS box-shadow añade efectos de sombra alrededor del marco de un elemento.
                     Se pueden definir múltiples efectos separados por comas. La caja de la sombra se describe por
@@ -88,69 +90,65 @@
                     una sombra con un color predefinido, al contorno de la caja. Si esque desea cambiar tanto el color de fondo, como la posición en "y"
                     y la posición en "x", puede hacerlo como se muestran en los ejemplos: <br><br>
                 </p>
-                <p class="m-top">
-                    • Sombra simple:
-                    <hr class="font-color-zeniba">
-                </p>
-                <div class="p m-top bg-color-haku rounded-10 box-shadow">
+                <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_PINK_V3.svg" alt="" height="20px" width="30px">Ejemplos de sombras en cajas: </h1>
+                <br>
+                <pre class="prettyprint subtitle">
+
+&lt;div class="box-shadow"&gt;Esta es una caja con sombra simple.&lt;/div&gt;
+&lt;div class="box-shadow-top"&gt;Esta es una caja con sombra superior.&lt;/div&gt;
+&lt;div class="box-shadow-bottom"&gt;Esta es una caja con sombra inferior.&lt;/div&gt;
+&lt;div class="box-shadow-left"&gt;Esta es una caja con sombra izquierda.&lt;/div&gt;
+&lt;div class="box-shadow-right"&gt;Esta es una caja con sombra derecha.&lt;/div&gt;
+                </pre>
+                <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_YELLOW_V3.svg" alt="" height="20px" width="30px">Resultados: </h1>
+                <div class="p m-top bg-color-haku rounded-10 box-shadow font-color-blanco">
                     <i rel="code">box-shadow</i>
                 </div>
                 <br>
-                <p class="m-top">
-                    • Sombra superior:
-                    <hr class="font-color-zeniba">
-                </p>
-                <div class="p m-top bg-color-chihiro rounded-10 box-shadow-top">
+                <div class="p m-top bg-color-chihiro rounded-10 box-shadow-top font-color-blanco">
                     <i rel="code">box-shadow-top</i>
                 </div>
                 <br>
-                <p class="m-top ">
-                    • Sombra inferior:
-                    <hr class="font-color-zeniba">
-                </p>
-                <div class="p m-top bg-color-noface rounded-10 box-shadow-bottom">
+                <div class="p m-top bg-color-akio rounded-10 box-shadow-bottom font-color-blanco">
                     <i rel="code">box-shadow-bottom</i>
                 </div>
                 <br>
-                <p class="m-top ">
-                    • Sombra izquierda:
-                    <hr class="font-color-zeniba">
-                </p>
-                <div class="p m-top bg-color-akio rounded-10 box-shadow-left">
+                <div class="p m-top bg-color-noface rounded-10 box-shadow-left font-color-blanco">
                     <i rel="code">box-shadow-left</i>
                 </div>
                 <br>
-                <p class="m-top ">
-                    • Sombra derecha:
-                    <hr class="font-color-zeniba">
-                </p>
-                <div class="p m-top bg-color-noface rounded-10 box-shadow-right">
+                <div class="p m-top bg-color-haku rounded-10 box-shadow-right font-color-blanco">
                     <i rel="code">box-shadow-right</i>
                 </div>
                 <br><br>
                 <h1 id="SombrasMovimiento" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Sombras con movimiento:</h1>
                 <hr class="font-color-zeniba">
+                <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_GREEN_V3.svg" alt="" height="20px" width="30px">Ejemplos de sombras con movimiento: </h1>
                 <p class="m-top ">
                     Es importante mencionar que para aplicar la sombra con movimiento, la caja ya deberá text-center
                     un color de fondo, sino, existe la propabilidad que no se tenga el resultado esperado.
                 </p>
-                <div class="p m-top bg-color-chihiro rounded-10 box-shadow-animated">
+                <br>
+                <pre class="prettyprint subtitle">
+
+&lt;div class="box-shadow-animated"&gt;Esta es una caja con sombra animada.&lt;/div&gt;
+                </pre>
+                <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_YELLOW_V3.svg" alt="" height="20px" width="30px">Resultados: </h1>
+                <div class="p m-top bg-color-chihiro rounded-10 box-shadow-animated font-color-blanco">
                     <i rel="code">box-shadow-animated</i>
                 </div>
                 <br><br>
                 <h1 id="SombrasPredefinidas" class="m m-top-3 subtitle text-size-h2 font-color-yubaba font-spacing"><img src="../img/kuro02.svg" alt="" height="20px" width="30px">Sombras predefinidas:</h1>
                 <hr class="font-color-zeniba">
-                <p class="m-top ">
-                    Se cuenta con dos estilos de sombras predefinitod, uno de ellos un poco minimalista, mientras
-                    que el otro tiene un diseño un tanto más llamativo.
-                    Para el segundo tipo de sombra deberá tener tambinén un color de fondo en la caja que será aplicado.
-                </p>
+                <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_PINK_V3.svg" alt="" height="20px" width="30px">Ejemplos de sombras predefinidas: </h1>
                 <br>
-                <p class="m-top ">
-                    • Sombra predefinida 1:
-                    <hr class="font-color-zeniba">
-                </p>
-                <div class="p m-top bg-color-akio rounded-10 box-shadow-1">
+                <pre class="prettyprint subtitle">
+
+&lt;div class="box-shadow-1"&gt;Esta es una caja con sombra predefinida.&lt;/div&gt;
+                </pre>
+                <br>
+                <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_YELLOW_V3.svg" alt="" height="20px" width="30px">Resultado: </h1>
+                <div class="p m-top bg-color-akio rounded-10 box-shadow-1 font-color-blanco">
                     <i rel="code">box-shadow-1</i>
                 </div>
                 <br><br>
@@ -161,12 +159,14 @@
                     para hacer el llamdo a la clase, se utiliza <span class="font-color-chihiro fweight-bold">text-shadow</span>, tal
                     y como se muestra a continuacion:
                 </p>
+                <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_GREEN_V3.svg" alt="" height="20px" width="30px">Ejemplos de sombras en texto: </h1>
                 <br>
-                <p class="m-top ">
-                    • Sombra en texto:
-                    <hr class="font-color-zeniba">
-                </p>
-                <div class="p m-top bg-color-lin rounded-10">
+                <pre class="prettyprint subtitle">
+
+&lt;p class="text-shadow-top-left-haku"&gt;Esta es una sombra superior izquierda de color "haku" aplicada a texto.&lt;/p&gt;
+                </pre>
+                <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_YELLOW_V3.svg" alt="" height="20px" width="30px">Resultado: </h1>
+                <div class="p m-top bg-color-yubaba rounded-10 font-color-blanco">
                     <i rel="code" class="text-shadow-top-left-haku">text-shadow-top-left-zeniba</i>
                 </div>
                 <br>
@@ -175,27 +175,26 @@
                 <hr class="font-color-zeniba">
                 <p class="m-top ">
                     Para aplicarle colores a las sombras deverá ver el nombre de los distintos <a class="font-color-noface fweight-bold" href="#">colores</a> y así
-                    defi
-                    nirlo a su gusto. La manera en que se cambia el color de sombra es la siguiente:
+                    definirlo a su gusto. La manera en que se cambia el color de sombra es la siguiente:
                 </p>
+                <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_PINK_V3.svg" alt="" height="20px" width="30px">Ejemplos de color en sombras: </h1>
                 <br>
-                <p class="m-top ">
-                    • Color de sombra en texto:
-                    <hr class="font-color-zeniba">
-                </p>
-                <div class="p m-top bg-color-noface rounded-10">
+                <pre class="prettyprint subtitle">
+
+&lt;p class="text-shadow-top-yubaba"&gt;Esta es una sombra superior de color "yubaba" aplicada a texto.&lt;/p&gt;
+&lt;p class="box-shadow-top-right-noface"&gt;Esta es una sombra superior de color "yubaba" aplicada a texto.&lt;/p&gt;
+                </pre>
+                <h1 class="m m-top-2 subtitle text-size-h4 font-color-yubaba font-spacing"><img src="../img/STAR_YELLOW_V3.svg" alt="" height="20px" width="30px">Resultados: </h1>
+                <div class="p m-top bg-color-noface rounded-10 font-color-blanco">
                     <i rel="code" class="text-shadow-top-yubaba">text-shadow-top-yubaba</i>
                 </div>
                 <br>
-                <p class="m-top ">
-                    • Color de sombra en cajas:
-                    <hr class="font-color-zeniba">
-                </p>
-                <div class="p m-top bg-color-haku rounded-10 box-shadow-top-right-noface">
+                <div class="p m-top bg-color-haku rounded-10 box-shadow-top-right-noface font-color-blanco">
                     <i rel="code">box-shadow-top-right-noface</i>
                 </div>
             </div>
         </div>
+
 
         <!-- Columna 3 -->
         <div class="grid-pulubli">
@@ -268,3 +267,5 @@
     </div>
 </body>
 </html>
+
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
